@@ -1,0 +1,26 @@
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    a {
+        text-decoration: none;
+        color: greenyellow;
+        text-transform: uppercase;
+        padding: 20px 0 20px 0;
+        width: 30%;
+    }
+    .active {
+        font-weight: 900;
+        transition: all ease-in-out 0.8s;
+        border-bottom: 20px solid white;
+        border-top: 20px solid white;
+        
+        
+        margin: -20px 0 -20px 0;
+    }
+}
