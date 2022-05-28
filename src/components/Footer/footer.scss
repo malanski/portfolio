@@ -1,0 +1,31 @@
+footer {
+    background-color: #282C34;
+    color: white;
+    .social-links {
+        
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 0 20px 0;
+
+        
+        a {
+            text-decoration: none;
+            color: greenyellow;
+            width: calc(20% - 40px);
+            height: 100px;
+            padding: 5px;
+            border: 1px solid greenyellow;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            .iconeLink {
+                font-size: 30px;
+
+            }
+        }
+        
+    }
+}

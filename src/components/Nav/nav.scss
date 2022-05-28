@@ -7,6 +7,8 @@ nav{
     color: white;
     margin: 0;
     padding: 0;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
     a {
         text-decoration: none;
         color: greenyellow;
@@ -16,9 +18,10 @@ nav{
     }
     .active {
         font-weight: 900;
+        font-size: 22px;
         transition: all ease-in-out 0.8s;
-        border-bottom: 20px solid white;
-        border-top: 20px solid white;
+        border-bottom: 15px solid white;
+        border-top: 15px solid white;
         
         
         margin: -20px 0 -20px 0;
