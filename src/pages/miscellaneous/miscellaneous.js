@@ -41,17 +41,7 @@ export const Miscellaneous = (props) => {
                         
                     </a>
 
-                    <a href="https://codepen.io/malanski/full/qBxEVMP"
-                        target="_blank"
-                        className="project project-tile">
-                        <p className="project-title">
-                            Tribute Page
-                        </p>
-                        <img className="project-image"
-                            src="https://github.com/malanski/images/raw/main/TributePage.png"
-                            alt="project"/>
-                        
-                    </a>
+                    
 
                     <a href="https://malanski.github.io/GessingColorGame/"
                         target="_blank"
@@ -130,7 +120,6 @@ export const Miscellaneous = (props) => {
                         <img className="project-image"
                             src="https://github.com/malanski/images/raw/main/pokestore1.png"
                             alt="project"/>
-                        
                     </a>
 
                     <a href="https://malanski.github.io/CalculatorX/"
@@ -142,7 +131,17 @@ export const Miscellaneous = (props) => {
                         <img className="project-image"
                             src="https://github.com/malanski/images/raw/main/calculator.png"
                             alt="project" />
-                        
+                    </a>
+
+                    <a href="https://codepen.io/malanski/full/qBxEVMP"
+                        target="_blank"
+                        className="project project-tile">
+                        <p className="project-title">
+                            Tribute Page
+                        </p>
+                        <img className="project-image"
+                            src="https://github.com/malanski/images/raw/main/TributePage.png"
+                            alt="project"/>
                     </a>
 
                     <a href="https://malanski.github.io/courses-rank/"

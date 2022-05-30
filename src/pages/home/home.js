@@ -6,13 +6,13 @@ export const Home = (props) => {
         <div className='project1'>
             <h2>Project <small>(work in progress)</small></h2>
 
-            <p>
+            <p className='aboutProject1'>
                 &ensp;&ensp;&ensp;&ensp;Developed with the intention of 
                 accumulating experience, simulating all the necessary 
                 steps in the construction of an application.
             </p>
 
-            <h3>Objetive of the product</h3>
+            <h3>Objective of the product</h3>
             <ul>
                 <li>
                     A web courses rate system for students.
