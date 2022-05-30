@@ -3,8 +3,8 @@ import './home.scss'
 
 export const Home = (props) => {
     return (
-        <div className='project'>
-            <h2>Project</h2>
+        <div className='project1'>
+            <h2>Project <small>(work in progress)</small></h2>
 
             <p>
                 &ensp;&ensp;&ensp;&ensp;Developed with the intention of 
@@ -40,6 +40,25 @@ export const Home = (props) => {
                 </li>
 
             </ul>
+
+            <h3>Repository</h3>
+
+            <a
+             href='https://github.com/malanski/projeto1'
+             target="_blank">
+                 https://github.com/malanski/projeto1
+             </a>
+
+             <h3>Prototype development</h3>
+
+            <a
+             href='https://malanski.github.io/courses-rank/'
+             target="_blank">
+                https://malanski.github.io/courses-rank/
+                <img src='https://github.com/malanski/projeto1/raw/main/FigmaPrototype.png'
+                className='project1-prototype'/>
+            </a>
+
         </div>
     )
 }

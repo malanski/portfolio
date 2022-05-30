@@ -8,7 +8,7 @@ footer {
         padding: 20px 0 20px 0;
 
         
-        a {
+        .social-media {
             text-decoration: none;
             color: greenyellow;
             width: calc(20% - 40px);
@@ -20,12 +20,20 @@ footer {
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
+            transition: all ease-in-out .8s;
 
             .iconeLink {
                 font-size: 30px;
 
             }
         }
-        
+        .social-media:hover {
+            background-color: black;
+            color: white;
+            -webkit-box-shadow: 1px 0px 28px -4px rgba(76,199,92,1);
+            -moz-box-shadow: 1px 0px 28px -4px rgba(76,199,92,1);
+            box-shadow: 1px 0px 28px -4px rgba(76,199,92,1);
+
+        }
     }
 }

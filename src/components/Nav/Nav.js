@@ -17,23 +17,23 @@ function CustomLink({ children, to, ...props }) {
     let match = useMatch({ path: resolved.pathname, end: true })
 
     return (
-        <Link className={match ? "active" : ""} to={to} {...props}>{children}</Link>
+        <Link className={match ? "active" : "links"} to={to} {...props}>{children}</Link>
     );
 }
 
 export function Nav() {
      return (
         <nav>
-            <CustomLink to="/">
-                Project
+            <CustomLink  to="/">
+                <span className="nav-links">Project</span>
             </CustomLink>
 
-            <CustomLink to="/miscellaneous">
-                Miscellaneous
+            <CustomLink  to="/miscellaneous">
+                <span className="nav-links">Miscellaneous</span>
             </CustomLink>
 
-            <CustomLink to="/skills">
-                Skills
+            <CustomLink  to="/skills">
+                <span className="nav-links">Skills</span>
             </CustomLink>
         </nav>
      )

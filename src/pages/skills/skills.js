@@ -1,7 +1,7 @@
 import './skills.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBattery, faBattery0, faBattery2, faBattery3, faBattery4, faCheckCircle, faCode, faComputer, faFlagUsa, faList, faPaintbrush, faPen, faPenAlt, faRobot } from '@fortawesome/free-solid-svg-icons';
-import { faCss3, faDocker, faFigma, faGit, faHtml5, faJs, faNodeJs, faReact, faSass } from '@fortawesome/free-brands-svg-icons';
+import { faArrowRight, faBattery, faBattery0, faBattery2, faBattery3, faBattery4, faCheckCircle, faCode, faComputer, faFlagUsa, faList, faPaintbrush, faPen, faPenAlt, faPenToSquare, faRobot } from '@fortawesome/free-solid-svg-icons';
+import { faCss3, faDocker, faFigma, faGit, faGitAlt, faHtml5, faJs, faLinux, faMicrosoft, faNodeJs, faReact, faSass } from '@fortawesome/free-brands-svg-icons';
 
 
 export const Skills = (props) => {
@@ -79,9 +79,22 @@ export const Skills = (props) => {
                     <FontAwesomeIcon className='icone' icon={faBattery3} />
                 </li>
 
-                <li><FontAwesomeIcon className='icone' icon={faBattery2} /> TypeScript</li>
-                <li><FontAwesomeIcon className='icone' icon={faBattery4} /> Git Advanced</li>
-                <li><FontAwesomeIcon className='icone' icon={faBattery3} /> NextJs</li>
+                <li>
+                    <FontAwesomeIcon className='icone' icon={faPenToSquare} />
+                    TypeScript fundamentals
+                    <FontAwesomeIcon className='icone' icon={faBattery4} />
+                </li>
+
+                <li>
+                    <FontAwesomeIcon className='icone' icon={faGitAlt} />
+                    Git advanced
+                    <FontAwesomeIcon className='icone' icon={faBattery4} />
+                </li>
+                <li>
+                    <FontAwesomeIcon className='icone' icon={faArrowRight} />
+                    NextJs
+                    <FontAwesomeIcon className='icone' icon={faBattery4} />
+                </li>
             </ul>
 
             <h3>Softwares</h3>
@@ -125,12 +138,16 @@ export const Skills = (props) => {
 
             <h3>OS</h3>
             <ul className='abilities'>
-                <li>
-                    <FontAwesomeIcon className='icone' icon={faBattery4} /> Windows
+            <li>
+                    <FontAwesomeIcon className='icone' icon={faMicrosoft} />
+                    Windows
+                    <FontAwesomeIcon className='icone' icon={faBattery4} />
                 </li>
 
                 <li>
-                    <FontAwesomeIcon className='icone' icon={faBattery3} /> Linux
+                    <FontAwesomeIcon className='icone' icon={faLinux} />
+                    Linux
+                    <FontAwesomeIcon className='icone' icon={faBattery4} />
                 </li>
             </ul>
         </div>

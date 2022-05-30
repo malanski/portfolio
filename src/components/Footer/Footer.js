@@ -14,40 +14,35 @@ export function Footer() {
 
             <div className='social-links'>
                 
-                <a 
-                    target="blanc"
+                <a className='social-media' target="_blank"
                     title='Linkedin'
                     href="https://www.linkedin.com/in/ulisses-malanski/">
                     <FontAwesomeIcon className='iconeLink' icon={faLinkedin} /><br/>
                     Linedin
                 </a>
 
-                <a 
-                    target="blanc"
+                <a className='social-media' target="_blank"
                     title='Github'
                     href="https://github.com/malanski">
                     <FontAwesomeIcon className='iconeLink' icon={faGithubAlt} /><br/>
                     Github
                 </a>
 
-                <a 
-                    target="blanc"
+                <a className='social-media' target="_blank"
                     title='Codepen'
                     href="https://codepen.io/malanski">
                     <FontAwesomeIcon className='iconeLink' icon={faCodepen} /><br/>
                     Codepen
                 </a>
 
-                <a 
-                    target="blanc"
+                <a className='social-media' target="_blank"
                     title='Free Code Camp'
                     href="https://www.freecodecamp.org/malanski">
                     <FontAwesomeIcon className='iconeLink' icon={faFreeCodeCamp} /><br/>
                     Free Code Camp
                 </a>
 
-                <a 
-                    target="blanc"
+                <a className='social-media' target="_blank"
                     title='Behance'
                     href="https://www.behance.net/malanski">
                     <FontAwesomeIcon className='iconeLink' icon={faBehance} /><br/>
@@ -57,14 +52,12 @@ export function Footer() {
             </div>
             
             <div className="App-header">
-                <FontAwesomeIcon className='iconeLink' icon={faEarth} className="App-logo" />
+                <FontAwesomeIcon icon={faEarth} className="App-logo" />
                 
                 <p>
                     Open to work around de world
                 </p>
                 
-                <FontAwesomeIcon className='iconeLink' icon={faBehance} />
-
             </div>
         </footer>
      )

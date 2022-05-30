@@ -1,11 +1,90 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3110;
+    --main-blue: #11565d;
+    --main-gray: #303a41;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+  
+
 .miscellaneous {
     background-color: #11565D ;
     margin: 0 auto 0 auto;
     min-height: 90vh;
     padding: 20px;
-    width: calc(30% - 0px);
+    width: 50%;
     text-align: center;
-    img {
-        width: 100%;
+    h3 {
+        text-align: left;
     }
+
+    // img {
+    //     width: 100%;
+    // }
+
+    .projects-section {
+        text-align: center;
+        // padding: 10rem 2rem;
+        background: var(--main-blue);
+
+        .projects-section-header {
+            max-width: 100%;
+            border-bottom: 3px solid var(--main-white);
+        }
+
+        .projects-grid {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto 4rem auto;
+            
+    
+            .project {
+                background: var(--main-gray);
+                box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+                border-radius: 0 0 20px 20px;
+                border: 2px solid white;
+                transition: all ease-in-out 0.8s;
+                padding: 10px;
+                margin: 10px;
+                width: calc(50% - 20px);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .project-image {
+                    border-radius: 0 0 20px 20px;
+
+                    max-height: 90%;
+                    width: 100%;
+                    object-fit:contain ;
+                }
+            }
+
+            .project:hover {
+                box-shadow: 1px 1px 6px 3px yellowgreen;
+            }
+
+            .project:hover .code {
+                color: yellowgreen;
+            }
+
+            .project-title {
+                text-align: center;
+                width: 100%;
+                font-size: 1rem;
+                
+            }
+    }
+      
+ 
+    
+
+    }
+    
 }
