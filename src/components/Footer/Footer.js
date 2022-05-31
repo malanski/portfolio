@@ -10,7 +10,7 @@ export function Footer() {
      return (
         <footer>
             <Nav />
-            <h3>Meus perfis profissionais</h3>
+            <h3>Professional Profile, Repositories, Codes, Challenges and Illustrations</h3>
 
             <div className='social-links'>
                 

@@ -9,26 +9,115 @@ nav{
     padding: 0;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
+    
+  
     a {
         text-decoration: none;
-        color: greenyellow;
-        text-transform: uppercase;
         padding: 20px 0 20px 0;
         width: 30%;
-        transition: all ease-in-out 0.4s;
+
+        .nav-links {
+            color: greenyellow;
+            text-transform: uppercase;
+            transition: all ease-in-out 0.4s;
+
+            .icons {
+                color:rgb(29, 29, 29);
+
+                font-size: larger;
+                animation: nav-spin infinite 9.2s linear;
+
+            }
+            .iconsR {
+                color:rgb(29, 29, 29);
+
+                font-size: larger;
+                animation: nav-spinR infinite 9s linear;
+            }
+
+        }
     }
-    a:hover {
-        color: white;
-        text-shadow: 1px 5px 5px white;
+
+    .nav-links:hover {
+        color: white;   
+        text-shadow: 1px 5px 5px rgba(143, 202, 153, 0.5);
+        font-size: larger;
+
+        .icons {
+            font-size: larger;
+
+            color:rgb(53, 53, 53);
+            font-size: larger;
+            animation: nav-spin infinite 3s linear;
+        }
+        .iconsR {
+            font-size: larger;
+
+            color:rgb(53, 53, 53);
+            font-size: larger;
+            animation: nav-spinR infinite 3.2s linear;
+        }
+
+        
     }
+
     .active {
-        font-weight: 900;
+        font-weight: bolder;
         font-size: 22px;
         transition: all ease-in-out 0.8s;
         border-bottom: 15px solid white;
         border-top: 15px solid white;
-        
-        
         margin: -20px 0 -20px 0;
+
+        .icons {
+            color:rgb(73, 73, 73);
+            font-size: larger;
+            animation: nav-spin infinite 6.2s linear;
+        }
+        .iconsR {
+            color:rgb(73, 73, 73);
+            font-size: larger;
+            animation: nav-spinR infinite 6s linear;
+        }
+
+        
+    }
+    .active:hover {
+        font-weight: lighter;
+        transition: all ease-in-out 0.8s;
+        text-shadow: 1px 5px 7px rgba(250, 248, 248, 0.9);
+        .nav-links {
+            color:black;    
+        }
+        
+
+        .icons {
+            color:rgb(43, 43, 43);
+            animation: nav-spin infinite 3s linear;
+            transition: all ease-in-out 0.8s;
+        }
+        .iconsR {
+            color:rgb(43, 43, 43);
+            animation: nav-spinR infinite 3.2s linear;
+            transition: all ease-in-out 0.8s;
+        }
+    }
+      
+}
+@keyframes nav-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes nav-spinR {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
     }
 }
