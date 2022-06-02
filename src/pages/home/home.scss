@@ -16,12 +16,22 @@
     
 }
 
-// - Front-End Engineering,
-// - Javascript Development,
-// - Typescript Development,
-// - Advanced SCSS,
-// - Web Development,
-// - Microinteractions,
-// - API Consuming,
-// - User-Centric Interfaces,
-// - User Experience Design.
+
+@media (max-width: 360px) {
+
+    .project1 {
+        width: 100vw;
+        background-color: black;
+
+    }
+
+}
+
+@media (max-width: 428px) {
+    .project1 {
+      
+      width: 100%;
+      
+    }
+  }
+  

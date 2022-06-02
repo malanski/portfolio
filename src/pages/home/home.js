@@ -8,7 +8,7 @@ export const Home = (props) => {
 
             <p className='aboutProject1'>
                 &ensp;&ensp;&ensp;&ensp;Developed with the intention of 
-                accumulating experience, simulating all the necessary 
+                accumulating experience and simulating all the necessary 
                 steps in the construction of an application.
             </p>
 
@@ -17,8 +17,6 @@ export const Home = (props) => {
                 <li>
                     A web courses rate system for students.
                 </li>
-
-
             </ul>
 
             <h3>The user can:</h3>
@@ -44,8 +42,8 @@ export const Home = (props) => {
             <h3>Repository</h3>
 
             <a
-             href='https://github.com/malanski/projeto1'
-             target="_blank">
+            href='https://github.com/malanski/projeto1'
+            target="_blank">
                  https://github.com/malanski/projeto1
              </a>
 

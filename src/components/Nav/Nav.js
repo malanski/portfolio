@@ -18,22 +18,22 @@ function CustomLink({ children, to, ...props }) {
     let match = useMatch({ path: resolved.pathname, end: true })
 
     return (
-        <Link className={match ? "active" : " "} to={to} {...props}>{children}</Link>
+        <Link className={match ? "active" : "normal-link"} to={to} {...props}>{children}</Link>
     );
 }
 
 export function Nav() {
      return (
         <nav>
-            <CustomLink  to="/">
+            <CustomLink title="My main project" to="/">
                 <span className="nav-links"><FontAwesomeIcon icon={faGear} className="icons" />  Project <FontAwesomeIcon icon={faGear} className="iconsR" /></span>
             </CustomLink>
 
-            <CustomLink  to="/miscellaneous">
-                <span className="nav-links"><FontAwesomeIcon icon={faGear} className="icons" /> Miscellaneous <FontAwesomeIcon icon={faGear} className="iconsR" /></span>
+            <CustomLink title="Miscellaneous" to="/miscellaneous">
+                <span className="nav-links"><FontAwesomeIcon icon={faGear} className="icons" /> Misc <FontAwesomeIcon icon={faGear} className="iconsR" /></span>
             </CustomLink>
 
-            <CustomLink  to="/skills">
+            <CustomLink title="My skills" to="/skills">
                 <span className="nav-links"> <FontAwesomeIcon icon={faGear} className="icons" /> Skills <FontAwesomeIcon icon={faGear} className="iconsR" /></span>
             </CustomLink>
         </nav>

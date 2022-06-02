@@ -1,7 +1,14 @@
 import './skills.scss'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight, faBattery, faBattery0, faBattery2, faBattery3, faBattery4, faCheckCircle, faCode, faComputer, faFlagUsa, faList, faPaintbrush, faPen, faPenAlt, faPenToSquare, faRobot } from '@fortawesome/free-solid-svg-icons';
-import { faCss3, faDocker, faFigma, faGit, faGitAlt, faHtml5, faJs, faLinux, faMicrosoft, faNodeJs, faReact, faSass } from '@fortawesome/free-brands-svg-icons';
+import { 
+    faArrowRight, faBattery, faBattery2, faBattery3, faBattery4,
+    faCode, faFlagUsa, faList, faPaintbrush, faPenAlt, faPenToSquare,
+    faRobot
+} from '@fortawesome/free-solid-svg-icons';
+import { faCss3, faDocker, faFigma, faGit, faGitAlt, faHtml5, faJs,
+    faLinux, faMicrosoft, faNodeJs, faReact, faSass 
+} from '@fortawesome/free-brands-svg-icons';
 
 
 export const Skills = (props) => {

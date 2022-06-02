@@ -5,6 +5,7 @@ footer {
         
         display: flex;
         justify-content: space-around;
+        align-items: baseline;
         padding: 20px 0 20px 0;
 
         
@@ -34,6 +35,38 @@ footer {
             -moz-box-shadow: 1px 0px 28px -4px rgba(76,199,92,1);
             box-shadow: 1px 0px 28px -4px rgba(76,199,92,1);
 
+        }
+    }
+}
+
+@media (max-width: 428px) {
+    footer {
+        h3 {
+            font-size: 15px;
+        }
+      
+        .social-links {
+
+            .social-media {
+                border: none;
+                
+                justify-content: center;
+                
+                .iconeLink {
+                    border: 1px solid greenyellow;
+                    padding: 20px;
+                    width: 100%;
+
+                    border-radius: 50%;
+                }
+
+
+                .social-link-name {
+                    font-size: 12px;
+                    margin-top: 0;
+                    // display: none;
+                }
+            }
         }
     }
 }

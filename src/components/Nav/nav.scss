@@ -24,14 +24,14 @@ nav{
             .icons {
                 color:rgb(29, 29, 29);
 
-                font-size: larger;
+                font-size: 15px;
                 animation: nav-spin infinite 9.2s linear;
 
             }
             .iconsR {
                 color:rgb(29, 29, 29);
 
-                font-size: larger;
+                font-size: 15px;
                 animation: nav-spinR infinite 9s linear;
             }
 
@@ -44,17 +44,15 @@ nav{
         font-size: larger;
 
         .icons {
-            font-size: larger;
 
             color:rgb(53, 53, 53);
-            font-size: larger;
+            font-size: 16px;
             animation: nav-spin infinite 3s linear;
         }
         .iconsR {
-            font-size: larger;
 
             color:rgb(53, 53, 53);
-            font-size: larger;
+            font-size: 16px;
             animation: nav-spinR infinite 3.2s linear;
         }
 
@@ -71,12 +69,12 @@ nav{
 
         .icons {
             color:rgb(73, 73, 73);
-            font-size: larger;
+            font-size: 17px;
             animation: nav-spin infinite 6.2s linear;
         }
         .iconsR {
             color:rgb(73, 73, 73);
-            font-size: larger;
+            font-size: 17px;
             animation: nav-spinR infinite 6s linear;
         }
 
@@ -119,5 +117,44 @@ nav{
     }
     to {
       transform: rotate(-360deg);
+    }
+}
+
+
+@media (max-width: 428px) {
+    nav {
+        border-top: 0 solid white;
+        border-bottom: 0 solid white;        
+        width: 100%;
+
+        a {
+            .nav-links {
+                font-size: 17px;
+
+                .icons {
+                    font-size: 15px;
+                }
+                .iconsR {
+                    font-size: 15px;
+                }
+            }
+        }
+
+
+        .active {
+            font-size: 16px;
+            border-bottom: 0 solid white;
+            border-top: 0 solid white;
+            margin: 0;
+            font-weight: 100;
+            .icons {
+                font-size: 10px;
+            }
+            .iconsR {
+                font-size: 1px;
+            }
+    
+            
+        }
     }
 }

@@ -4,13 +4,17 @@ import './footer.scss'
 import { Nav } from '../Nav';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEarth } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDown, faCheck, faEarth } from '@fortawesome/free-solid-svg-icons';
 import { faBehance, faCodepen, faFreeCodeCamp, faGithubAlt, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 export function Footer() {
      return (
         <footer>
             <Nav />
-            <h3>Professional Profile, Repositories, Codes, Challenges and Illustrations</h3>
+            <h3>
+                <FontAwesomeIcon className='iconeLink' icon={faCheck} />&ensp;
+                Check my professional profile, repositories, codes, challenges and illustrations at:&ensp; 
+                <FontAwesomeIcon className='iconeLink' icon={faArrowDown} /> 
+            </h3>
 
             <div className='social-links'>
                 
@@ -18,35 +22,35 @@ export function Footer() {
                     title='Linkedin'
                     href="https://www.linkedin.com/in/ulisses-malanski/">
                     <FontAwesomeIcon className='iconeLink' icon={faLinkedin} /><br/>
-                    Linedin
+                    <p className='social-link-name' >Linedin</p>
                 </a>
 
                 <a className='social-media' target="_blank"
                     title='Github'
                     href="https://github.com/malanski">
                     <FontAwesomeIcon className='iconeLink' icon={faGithubAlt} /><br/>
-                    Github
+                    <p className='social-link-name' >Github</p>
                 </a>
 
                 <a className='social-media' target="_blank"
                     title='Codepen'
                     href="https://codepen.io/malanski">
                     <FontAwesomeIcon className='iconeLink' icon={faCodepen} /><br/>
-                    Codepen
+                    <p className='social-link-name' >Codepen</p>
                 </a>
 
                 <a className='social-media' target="_blank"
                     title='Free Code Camp'
                     href="https://www.freecodecamp.org/malanski">
                     <FontAwesomeIcon className='iconeLink' icon={faFreeCodeCamp} /><br/>
-                    Free Code Camp
+                    <p className='social-link-name' >FreeCodeCamp</p>
                 </a>
 
                 <a className='social-media' target="_blank"
                     title='Behance'
                     href="https://www.behance.net/malanski">
                     <FontAwesomeIcon className='iconeLink' icon={faBehance} /><br/>
-                    Behance
+                    <p className='social-link-name' >Behance</p>
                 </a>
 
             </div>
