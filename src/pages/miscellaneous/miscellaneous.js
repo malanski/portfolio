@@ -12,15 +12,16 @@ export const Miscellaneous = (props) => {
                 alt="youtube print"/> */}
 
             <section className="projects-section">
-                <h3 className="projects-section-header">These are some of my projects</h3>
+                <h3 className="projects-section-header">These are some of my other projects</h3>
 
                 <div className="projects-grid">
                     <a href="https://poke-store-next.vercel.app/"
                         target="_blank"
                         className="project project-tile">
                         <p className="project-title">
+                            E-Commerce NextJs<br/>
                             Poke-Store<br/>
-                            Next.js + pokeAPI + Vercel Deploy
+                            + pokeAPI + Vercel Deploy
                         </p>
                         <img className="project-image"
                             src="https://github.com/malanski/images/raw/main/pokeStoreNext.png"

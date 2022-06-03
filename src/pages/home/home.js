@@ -7,9 +7,19 @@ export const Home = (props) => {
             <h2>Project <small>(work in progress)</small></h2>
 
             <p className='aboutProject1'>
-                &ensp;&ensp;&ensp;&ensp;Developed with the intention of 
-                accumulating experience and simulating all the necessary 
-                steps in the construction of an application.
+                &ensp;&ensp;&ensp;&ensp;
+                Developed with the intention of 
+                working on Agile / Scrum teams in order to
+                accumulate experience and simulate all the necessary 
+                steps in the construction of an application.<br/>
+                &ensp;&ensp;&ensp;&ensp;
+                Building complex software systems that have been 
+                successfully delivered to customers.
+                Knowledge of professional software engineering 
+                practices and best practices for the full software 
+                development life cycle, including coding standards, 
+                code reviews, source control management, build processes, 
+                testing, and operations.
             </p>
 
             <h3>Objective of the product</h3>
