@@ -19,9 +19,8 @@ export const Miscellaneous = (props) => {
                         target="_blank"
                         className="project project-tile">
                         <p className="project-title">
-                            E-Commerce NextJs<br/>
                             Poke-Store<br/>
-                            + pokeAPI + Vercel Deploy
+                            E-Commerce NextJs + pokeAPI + Vercel Deploy
                         </p>
                         <img className="project-image"
                             src="https://github.com/malanski/images/raw/main/pokeStoreNext.png"
@@ -32,7 +31,6 @@ export const Miscellaneous = (props) => {
                         target="_blank"
                         className="project project-tile">
                         <p className="project-title">
-                            API<br/>
                             Weather Weekly<br/>
                             openweathermap.org API + JavaScript
                         </p>
@@ -40,6 +38,18 @@ export const Miscellaneous = (props) => {
                             src="https://github.com/malanski/images/raw/main/weather-weekly.png"
                             alt="project"/>
                             
+                    </a>
+
+                    <a href="https://malanski.github.io/sintaxe-e-operadores/"
+                        target="_blank"
+                        className="project project-tile">
+                        <p className="project-title">
+                            Star Wars Characters<br/>
+                            API + JavaScript 
+                        </p>
+                        <img className="project-image"
+                            src="https://github.com/malanski/images/raw/main/starwars1.png"
+                            alt="project"/>
                     </a>
 
                     <a href="https://node-example-uli.herokuapp.com/"
@@ -54,18 +64,6 @@ export const Miscellaneous = (props) => {
                             alt="project"/>
                     </a>
 
-                    <a href="https://malanski.github.io/sintaxe-e-operadores/"
-                        target="_blank"
-                        className="project project-tile">
-                        <p className="project-title">
-                            User cadaster Form<br/>
-                            Express + Backend + Heroku Deploy
-                        </p>
-                        <img className="project-image"
-                            src="https://github.com/malanski/images/raw/main/starwars1.png"
-                            alt="project"/>
-                    </a>
-
                     <a href="https://malanski.github.io/GessingColorGame/"
                         target="_blank"
                         className="project project-tile">
@@ -75,7 +73,6 @@ export const Miscellaneous = (props) => {
                         <img className="project-image"
                             src="https://github.com/malanski/images/raw/main/color-guessing.png"
                             alt="project"/>
-                        
                     </a>
 
                     
