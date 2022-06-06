@@ -26,7 +26,6 @@ export const Miscellaneous = (props) => {
                         <img className="project-image"
                             src="https://github.com/malanski/images/raw/main/pokeStoreNext.png"
                             alt="project"/>
-                            
                     </a>
 
                     <a href="https://malanski.github.io/weather-weekly/"
@@ -55,7 +54,17 @@ export const Miscellaneous = (props) => {
                             alt="project"/>
                     </a>
 
-                    
+                    <a href="https://malanski.github.io/sintaxe-e-operadores/"
+                        target="_blank"
+                        className="project project-tile">
+                        <p className="project-title">
+                            User cadaster Form<br/>
+                            Express + Backend + Heroku Deploy
+                        </p>
+                        <img className="project-image"
+                            src="https://github.com/malanski/images/raw/main/starwars1.png"
+                            alt="project"/>
+                    </a>
 
                     <a href="https://malanski.github.io/GessingColorGame/"
                         target="_blank"
