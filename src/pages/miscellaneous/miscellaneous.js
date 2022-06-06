@@ -29,6 +29,20 @@ export const Miscellaneous = (props) => {
                             
                     </a>
 
+                    <a href="https://malanski.github.io/weather-weekly/"
+                        target="_blank"
+                        className="project project-tile">
+                        <p className="project-title">
+                            API<br/>
+                            Weather Weekly<br/>
+                            openweathermap.org API + JavaScript
+                        </p>
+                        <img className="project-image"
+                            src="https://github.com/malanski/images/raw/main/weather-weekly.png"
+                            alt="project"/>
+                            
+                    </a>
+
                     <a href="https://node-example-uli.herokuapp.com/"
                         target="_blank"
                         className="project project-tile">
@@ -39,7 +53,6 @@ export const Miscellaneous = (props) => {
                         <img className="project-image"
                             src="https://github.com/malanski/images/raw/main/nodeExample.png"
                             alt="project"/>
-                        
                     </a>
 
                     
