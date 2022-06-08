@@ -1,6 +1,5 @@
 // import './Header.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEarth } from '@fortawesome/free-solid-svg-icons';
+
 import { Nav } from '../Nav';
 
 

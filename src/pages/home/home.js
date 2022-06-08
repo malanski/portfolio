@@ -53,7 +53,7 @@ export const Home = (props) => {
 
             <a
             href='https://github.com/malanski/projeto1'
-            target="_blank">
+            target="_blank" rel='noreferrer'>
                  https://github.com/malanski/projeto1
              </a>
 
@@ -61,10 +61,10 @@ export const Home = (props) => {
 
             <a
              href='https://malanski.github.io/courses-rank/'
-             target="_blank">
+             target="_blank" rel='noreferrer'>
                 https://malanski.github.io/courses-rank/
                 <img src='https://github.com/malanski/projeto1/raw/main/FigmaPrototype.png'
-                className='project1-prototype'/>
+                className='project1-prototype' alt='project prototype'/>
             </a>
 
         </div>
