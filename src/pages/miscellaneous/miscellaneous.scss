@@ -59,10 +59,9 @@ a {
 
                 .project-image {
                     border-radius: 0 0 20px 20px;
-
-                    max-height: 90%;
-                    width: 100%;
-                    object-fit:contain ;
+                    margin: auto;
+                    height: 320px;
+                    width: 320px;
                 }
             }
 
@@ -78,6 +77,30 @@ a {
                 text-align: left;
                 width: 100%;
                 font-size: 1rem;
+                
+            }
+            .project-header {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                background-color: black;
+                border-radius: 10px;
+                padding: 10px;
+            }
+
+            .tech-badge-card {
+                font-size: 30px;
+                color: black;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                .iconBall {
+                    background-color: white;
+                    border-radius: 50%;
+                    padding: 10px;
+                }
                 
             }
         }
