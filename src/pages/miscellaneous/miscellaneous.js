@@ -204,7 +204,6 @@ export const Miscellaneous = (props) => {
                             <div className='tech-badge-card'>
                                 <FontAwesomeIcon icon={faSearch} className="iconBall" />
                                 <FontAwesomeIcon icon={faWikipediaW} className="iconBall" />
-                                <FontAwesomeIcon icon={faJs} className="iconBall" />
                             </div>
                         </div>
 
