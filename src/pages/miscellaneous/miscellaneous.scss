@@ -107,7 +107,33 @@ a {
     }
 }
 
-@media (max-width: 428px) {
+
+
+@media (max-width: 1460px) {
+    .miscellaneous {      
+      margin-left: auto;
+      .projects-section{
+
+        .projects-grid {
+
+            .project {
+                width: calc(50% - 20px);
+                
+                .project-image {
+                    margin: auto;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .tech-badge-card {
+                font-size: 30px;
+            }
+        }
+      }
+    }
+}
+
+@media (max-width: 800px) {
     .miscellaneous {      
       width: 100%;
       margin-left: 0;
