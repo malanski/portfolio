@@ -53,6 +53,7 @@ a {
                 margin: 10px;
                 width: calc(50% - 20px);
                 display: flex;
+                flex-wrap: nowrap;
                 flex-direction: column;
                 justify-content: space-between;
 
@@ -62,7 +63,7 @@ a {
                     justify-content: space-between;
                     align-items: center;
                     background-color: black;
-                    height: 50%;
+                    height: calc(50% - 10px);
                     border-radius: 5px 5px 0 0;
                     padding: 10px;
     
@@ -106,8 +107,8 @@ a {
                 .deployLink {
                     
                     transition: 0.3s ease-in-out;
-                    height: 320px;
-                    width: 320px;
+                    height: 50%;
+                    width: 100%;
 
                     border-radius: 0 0 20px 20px;
 
@@ -118,8 +119,8 @@ a {
                     align-items: center;
 
                     .project-image {
-                        width: 300px;
-                        height: 290px;
+                        width: calc(100% - 20px);
+                        height: calc(100% - 20px);
                         position: relative;
                         transition: 0.3s ease-in-out;
                         border-radius: 0 0 20px 20px;
@@ -167,11 +168,45 @@ a {
         }
     }
 }
+@media (max-width: 1433px) {
+   .miscellaneous {
+
+    .projects-section {
+
+        .projects-grid {
+
+            .project {
+                
+                .project-header {
+
+                    .project-title {
+                        font-size: 15px;
+                    }
+                    .tech-badge-card {
+
+                        .iconBall{
+                            
+                        }
+                    }
+                }
+                .deployLink {
+                    
+                    .project-image {
+
+                    }
+                }
+                
+            }
+        }
+    }
+   } 
+}
 
 
-
-@media (max-width: 1460px) {
-    .miscellaneous {      
+@media (max-width: 1405px) {
+    .miscellaneous {
+        width: 90%;
+      
       margin-left: auto;
       .projects-section{
 
@@ -180,11 +215,29 @@ a {
             .project {
                 width: calc(50% - 20px);
                 
-                .project-image {
-                    margin: auto;
-                    height: 100%;
-                    width: 100%;
+
+                .project-header {
+
+                    .project-title {
+
+                    }
+
+                    .tech-badge-card {
+
+                        .iconBall {
+                            max-width: 50px;
+                            max-height: 50px;
+
+                        }
+                    }
                 }
+
+                .deployLink{
+                    .project-image {
+                        
+                    }
+                }
+                
             }
             .tech-badge-card {
                 font-size: 30px;
@@ -204,6 +257,13 @@ a {
 
             .project {
                 width: calc(100% - 20px);
+
+                .deployLink {
+                    
+                    .project-image {
+                        
+                    }
+                }
             }
         }
       }
