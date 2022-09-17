@@ -26,11 +26,11 @@ export function Nav() {
      return (
         <nav>
             <CustomLink title="My main project" to="/">
-                <span className="nav-links"><FontAwesomeIcon icon={faGear} className="icons" />  Project <FontAwesomeIcon icon={faGear} className="iconsR" /></span>
+                <span className="nav-links"><FontAwesomeIcon icon={faGear} className="icons" />  About me <FontAwesomeIcon icon={faGear} className="iconsR" /></span>
             </CustomLink>
 
-            <CustomLink title="Miscellaneous" to="/miscellaneous">
-                <span className="nav-links"><FontAwesomeIcon icon={faGear} className="icons" /> Misc <FontAwesomeIcon icon={faGear} className="iconsR" /></span>
+            <CustomLink title="Projects" to="/projects">
+                <span className="nav-links"><FontAwesomeIcon icon={faGear} className="icons" /> Projects <FontAwesomeIcon icon={faGear} className="iconsR" /></span>
             </CustomLink>
 
             <CustomLink title="My skills" to="/skills">

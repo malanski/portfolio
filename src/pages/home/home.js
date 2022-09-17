@@ -4,7 +4,31 @@ import './home.scss'
 export const Home = (props) => {
     return (
         <div className='project1'>
-            <h2>Project <small>(work in progress)</small></h2>
+            <h2>About me</h2>
+
+            <p className='aboutProject1'>
+                &ensp;&ensp;&ensp;&ensp;
+                I am passionate about the areas of technology and art, my purpose is to
+                unite them focusing on the Front-End Developer career. Area in which I study
+                intensively, looking for challenges and projects to improve my technical
+                knowledge and amplify my self-learning capacity.<br/>
+                <br/>   
+                &ensp;&ensp;&ensp;&ensp;
+                I worked for 7 years as an art teacher, a position in which I developed good
+                communication to exchange information and the ability to act under pressure. At
+                the same time, since 2011 I have been creating illustrations and drawings in
+                traditional and digital media as a freelance designer and illustrator.<br/>
+                <br/>   
+                &ensp;&ensp;&ensp;&ensp;
+                The most satisfying thing I do is deliver solutions to complex problems
+                 and design solutions that can help the organization I am also able to gather
+                 the client's/company's requirements and translate them into an attractive,
+                 effective and unique website. I have worked in various fields, such as
+                 art education in schools, research and customer service in museums,
+                 and recently as a freelance tattoo artist and illustrator.
+            </p>
+            
+            {/* <h2>Project <small>(work in progress)</small></h2>
 
             <p className='aboutProject1'>
                 &ensp;&ensp;&ensp;&ensp;
@@ -24,29 +48,15 @@ export const Home = (props) => {
 
             <h3>Objective of the product</h3>
             <ul>
-                <li>
-                    A web courses rate system for students.
-                </li>
+                <li>A web courses rate system for students.</li>
             </ul>
 
             <h3>The user can:</h3>
             <ul>
-                <li>
-                    Create a comment with a form that will store that information.
-                </li>
-
-                <li>
-                    Read his and other people's comments stored.
-                </li>
-
-                <li>
-                    Update or edit his comments.
-                </li>
-
-                <li>
-                    Delete his comments.
-                </li>
-
+                <li>Create a comment with a form that will store that information.</li>
+                <li>Read his and other people's comments stored.</li>
+                <li>Update or edit his comments.</li>
+                <li>Delete his comments.</li>
             </ul>
 
             <h3>Repository</h3>
@@ -65,7 +75,7 @@ export const Home = (props) => {
                 https://malanski.github.io/courses-rank/
                 <img src='https://github.com/malanski/projeto1/raw/main/FigmaPrototype.png'
                 className='project1-prototype' alt='project prototype'/>
-            </a>
+            </a> */}
 
         </div>
     )

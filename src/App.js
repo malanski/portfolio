@@ -10,7 +10,7 @@ import { Footer } from './components/Footer';
 
 // Navigation
 import { Home } from './pages/home'
-import { Miscellaneous } from './pages/miscellaneous'
+import { Projects } from './pages/projects'
 import { Skills } from './pages/skills'
 
 
@@ -24,7 +24,7 @@ function App() {
         <main>
           <Routes>
             <Route path ='/' element={<Home />} />
-            <Route path ='/miscellaneous' element={<Miscellaneous />} />
+            <Route path ='/projects' element={<Projects />} />
             <Route path ='/skills' element={<Skills />} />
           </Routes>
         </main>
