@@ -6,7 +6,7 @@ import { Nav } from '../Nav';
 export function Header() {
      return (
         <header>
-            <h1>Portfolio Ulisses Malanski</h1>
+            <h1>Ulisses Malanski <br/>Portfolio</h1>
 
             <Nav />
       </header>

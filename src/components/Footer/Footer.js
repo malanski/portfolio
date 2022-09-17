@@ -1,6 +1,6 @@
 // import './Header.scss';
 import './footer.scss'
-
+import earth from '../../../src/assets/planet-earth-png-8.png';
 import { Nav } from '../Nav';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -56,10 +56,9 @@ export function Footer() {
             </div>
             
             <div className="App-header">
-                <FontAwesomeIcon icon={faEarth} className="App-logo" />
-                
+                <img src={earth} alt="API icon" className="App-logo" />
                 <p>
-                    Open to work around de world
+                    Open to work around de globe
                 </p>
                 
             </div>
