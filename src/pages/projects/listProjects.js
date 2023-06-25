@@ -1,7 +1,6 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import apiIcon from '../../../src/assets/APIlogo.png';
-
 import { faCss3, faCss3Alt, faHtml5, faJs, faReact, faSass, faWikipediaW } from '@fortawesome/free-brands-svg-icons';
 import { faCalculator, faDatabase, faGamepad, faList, faPerson, faSearch } from '@fortawesome/free-solid-svg-icons';
 

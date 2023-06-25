@@ -10,8 +10,6 @@ import {
     useResolvedPath
 } from 'react-router-dom';
 
-
-
 // Cutomization for Link Actions
 function CustomLink({ children, to, ...props }) {
     let resolved = useResolvedPath(to);
@@ -29,7 +27,7 @@ export function Nav() {
                 <span className="nav-links"><FontAwesomeIcon icon={faGear} className="icons" />  About me <FontAwesomeIcon icon={faGear} className="iconsR" /></span>
             </CustomLink>
 
-            <CustomLink title="Projects" to="/malanskiprojects">
+            <CustomLink title="Projects" to="/projects">
                 <span className="nav-links"><FontAwesomeIcon icon={faGear} className="icons" /> Projects <FontAwesomeIcon icon={faGear} className="iconsR" /></span>
             </CustomLink>
 

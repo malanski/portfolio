@@ -2,12 +2,10 @@ $bg-color: #fff;
 $text-color: #333;
 header {
   transition: background-color 0.5s ease-in-out, color 0.5s ease;
-
+  display: flex;
+  flex-direction: column;
 }
-// body, main {
-//   background-color: $bg-color;
-//   color: $text-color;
-// }
+
 
 .night-mode {
   background-color: #333;
@@ -17,11 +15,14 @@ header {
 }
 
 .night-mode-btn {
+  align-self: flex-end;
+  width: 200px;
+  margin-right: 20px;
   border-radius: 10px;
   text-transform: uppercase;
   background-color: #fff;
   color: #333;
-  border: none;
+  border: 2px solid greenyellow;
   padding: 10px 20px;
   cursor: pointer;
 }

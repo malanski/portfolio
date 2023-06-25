@@ -11,7 +11,7 @@ import { faCss3, faDocker, faFigma, faGit, faGitAlt, faHtml5, faJs,
 } from '@fortawesome/free-brands-svg-icons';
 
 
-export const Skills = (props) => {
+export const Skills = () => {
     return (
         <div className='skills'>
             <h2>Skills that I can work with:</h2>
