@@ -4,7 +4,7 @@ import earth from '../../../src/assets/planet-earth-png-8.png';
 import { Nav } from '../Nav';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown, faCheck, faEarth } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDown, faCheck } from '@fortawesome/free-solid-svg-icons';
 import { faBehance, faCodepen, faFreeCodeCamp, faGithubAlt, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 export function Footer() {
      return (

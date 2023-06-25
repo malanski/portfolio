@@ -1,0 +1,27 @@
+$bg-color: #fff;
+$text-color: #333;
+header {
+  transition: background-color 0.5s ease-in-out, color 0.5s ease;
+
+}
+// body, main {
+//   background-color: $bg-color;
+//   color: $text-color;
+// }
+
+.night-mode {
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease;
+
+}
+
+.night-mode-btn {
+  border-radius: 10px;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}

@@ -29,7 +29,7 @@ export function Nav() {
                 <span className="nav-links"><FontAwesomeIcon icon={faGear} className="icons" />  About me <FontAwesomeIcon icon={faGear} className="iconsR" /></span>
             </CustomLink>
 
-            <CustomLink title="Projects" to="/projects">
+            <CustomLink title="Projects" to="/malanskiprojects">
                 <span className="nav-links"><FontAwesomeIcon icon={faGear} className="icons" /> Projects <FontAwesomeIcon icon={faGear} className="iconsR" /></span>
             </CustomLink>
 

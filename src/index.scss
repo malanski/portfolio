@@ -11,16 +11,25 @@ body, html {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease;
+
 }
 
 main {
   min-height: 90vh;
   width: 100vw;
-  background-color: #11565D;
-  background-color: white;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.night-mode {
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease;
+
 }

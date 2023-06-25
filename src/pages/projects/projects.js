@@ -4,7 +4,7 @@ import apiIcon from '../../../src/assets/APIlogo.png';
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCss3, faCss3Alt, faGithubSquare, faHtml5, faJs, faReact, faSass, faWikipediaW } from '@fortawesome/free-brands-svg-icons';
+import { faCss3, faCss3Alt, faGithubAlt, faHtml5, faJs, faReact, faSass, faWikipediaW } from '@fortawesome/free-brands-svg-icons';
 import { faCalculator, faDatabase, faGamepad, faList, faPerson, faSearch } from '@fortawesome/free-solid-svg-icons';
 
 export const Projects = (props) => {
@@ -25,7 +25,7 @@ export const Projects = (props) => {
                                 <p>JavaScript + HTML + CSS</p>
                                 <a href="https://github.com/malanski/spotify-client"
                                     title="Code and documentation at this repository" className='repository'>
-                                    <FontAwesomeIcon  icon={faGithubSquare} /> Repository link
+                                    <FontAwesomeIcon  icon={faGithubAlt} /> Repository link
                                 </a>
                             </div>
                             <div className='tech-badge-card'>
@@ -52,7 +52,7 @@ export const Projects = (props) => {
                                 <p>JavaScript</p>
                                 <a href="https://github.com/malanski/memory-game"
                                     title="Code and documentation at this repository" className='repository'>
-                                    <FontAwesomeIcon  icon={faGithubSquare} /> Repository link 
+                                    <FontAwesomeIcon  icon={faGithubAlt} /> Repository link 
                                 </a>
                             </div>
                             <div className='tech-badge-card'>
@@ -80,7 +80,7 @@ export const Projects = (props) => {
                                 <p>NextJs</p>
                                 <a href="https://github.com/malanski/poke-store-next"
                                     title="Code and documentation at this repository" className='repository'>
-                                    <FontAwesomeIcon  icon={faGithubSquare} /> Repository link 
+                                    <FontAwesomeIcon  icon={faGithubAlt} /> Repository link 
                                 </a>
                             </div>
                             <div className='tech-badge-card'>
@@ -109,7 +109,7 @@ export const Projects = (props) => {
                                 <p>JavaScript + HTML + CSS</p>
                                 <a href="https://github.com/malanski/weather-weekly" 
                                     title="Code and documentation at this repository" className='repository'> 
-                                    <FontAwesomeIcon  icon={faGithubSquare} /> Repository link
+                                    <FontAwesomeIcon  icon={faGithubAlt} /> Repository link
                                 </a>
                             </div>
                             
@@ -137,7 +137,7 @@ export const Projects = (props) => {
                                 <p>JavaScript + HTML + CSS</p>
                                 <a href="https://github.com/malanski/sintaxe-e-operadores"
                                     title="Code and documentation at this repository" className='repository'>
-                                    <FontAwesomeIcon  icon={faGithubSquare} /> Repository link
+                                    <FontAwesomeIcon  icon={faGithubAlt} /> Repository link
                                 </a>
                             </div>
                             
@@ -161,12 +161,12 @@ export const Projects = (props) => {
                         
                         <div className='project-header'>
                             <div className="project-title">
-                                <p><big><b>User cadaster Form</b></big></p>
+                                <p><big><b>User registration Form</b></big></p>
                                 <p>Express + Backend + Heroku Deploy</p>
                                 <p>JavaScript + HTML + CSS</p>
                                 <a href="https://github.com/malanski/node_example"
                                     className='repository' title="Code and documentation at this repository">
-                                    <FontAwesomeIcon  icon={faGithubSquare} /> Repository link
+                                    <FontAwesomeIcon  icon={faGithubAlt} /> Repository link
                                 </a>
                             </div>
                             
@@ -196,7 +196,7 @@ export const Projects = (props) => {
                                 <p>JavaScript + HTML + CSS</p>
                                 <a href="https://github.com/malanski/GessingColorGame"
                                     className='repository' title="Code and documentation at this repository">
-                                    <FontAwesomeIcon icon={faGithubSquare} /> Repository link
+                                    <FontAwesomeIcon icon={faGithubAlt} /> Repository link
                                 </a>
                             </div>
                            
@@ -227,7 +227,7 @@ export const Projects = (props) => {
                                 <p>JavaScript + HTML + CSS</p>
                                 <a href="https://codepen.io/malanski/pen/xxYGmYY"
                                      className='repository' title="Code Pen">
-                                    <FontAwesomeIcon icon={faGithubSquare} /> Repository link
+                                    <FontAwesomeIcon icon={faGithubAlt} /> Repository link
                                 </a>
                             </div>
                             
@@ -254,7 +254,7 @@ export const Projects = (props) => {
                                 <p>JavaScript + HTML + CSS</p>
                                 <a href="https://github.com/malanski/cron"
                                     className='repository' title="Code and documentation at this repository">
-                                    <FontAwesomeIcon icon={faGithubSquare} /> Repository link
+                                    <FontAwesomeIcon icon={faGithubAlt} /> Repository link
                                 </a>
                             </div>
                            
@@ -283,7 +283,7 @@ export const Projects = (props) => {
                                 <p>JavaScript + HTML + CSS</p>
                                 <a href="https://codepen.io/malanski/pen/xxYGBqw"
                                     className='repository' title="Code Pen">
-                                    <FontAwesomeIcon icon={faGithubSquare} /> Repository link
+                                    <FontAwesomeIcon icon={faGithubAlt} /> Repository link
                                 </a>
                             </div>
                             
@@ -311,7 +311,7 @@ export const Projects = (props) => {
                                 <p>JavaScript + HTML + CSS</p>
                                 <a href="https://codepen.io/malanski/pen/QWQjgaZ"
                                     className='repository' title="Code Pen">
-                                    <FontAwesomeIcon icon={faGithubSquare} /> Repository link
+                                    <FontAwesomeIcon icon={faGithubAlt} /> Repository link
                                 </a>
                             </div>
 
@@ -339,7 +339,7 @@ export const Projects = (props) => {
                                 <p>JavaScript + HTML + CSS</p>
                                 <a href="https://codepen.io/malanski/pen/qBxOVvq" 
                                     className='repository'title="Code and documentation at this repository">
-                                    <FontAwesomeIcon icon={faGithubSquare} /> Repository link
+                                    <FontAwesomeIcon icon={faGithubAlt} /> Repository link
                                 </a>
                             </div>
                             
@@ -368,7 +368,7 @@ export const Projects = (props) => {
                                 <p>JavaScript + HTML + CSS</p>
                                 <a href="https://github.com/malanski/pokeLoja2"
                                     className='repository' title="Code and documentation at this repository" >
-                                    <FontAwesomeIcon icon={faGithubSquare} /> Repository link
+                                    <FontAwesomeIcon icon={faGithubAlt} /> Repository link
                                 </a>
                             </div>
                             
@@ -398,7 +398,7 @@ export const Projects = (props) => {
                                 <p>JavaScript + HTML + CSS</p>
                                 <a href="https://github.com/malanski/CalculatorX"
                                     className='repository' title="Code and documentation at this repository">
-                                    <FontAwesomeIcon icon={faGithubSquare} /> Repository link
+                                    <FontAwesomeIcon icon={faGithubAlt} /> Repository link
                                 </a>
                             </div>
                             
@@ -428,7 +428,7 @@ export const Projects = (props) => {
                                 <p>HTML + CSS</p>
                                 <a href="https://codepen.io/malanski/pen/qBxEVMP"
                                     className='repository' title="Code and documentation at this repository">
-                                    <FontAwesomeIcon icon={faGithubSquare} /> Repository link
+                                    <FontAwesomeIcon icon={faGithubAlt} /> Repository link
                                 </a>
                             </div>
                             
@@ -457,7 +457,7 @@ export const Projects = (props) => {
                                 <p>HTML + CSS</p>
                                 <a href="https://github.com/malanski/courses-rank" 
                                     className='repository' title="Code and documentation at this repository" >
-                                    <FontAwesomeIcon icon={faGithubSquare} /> Repository link
+                                    <FontAwesomeIcon icon={faGithubAlt} /> Repository link
                                 </a>
                             </div>
                             
