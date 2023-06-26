@@ -1,6 +1,7 @@
 // import './Header.scss';
 import './footer.scss'
 import earth from '../../../src/assets/planet-earth-png-8.png';
+import moon from '../../../src/assets/moon.png';
 import { Nav } from '../Nav';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -55,8 +56,13 @@ export function Footer() {
 
             </div>
             
-            <div className="App-header">
-                <img src={earth} alt="API icon" className="App-logo" />
+            <div className="footerAnimation">
+
+                <div className="scene">
+                    <img src={earth} alt="API icon" className="App-logo earth" />
+                    <img src={moon} alt="API icon" className="App-logo moon" />
+                </div>
+
                 <p>
                     Open to work around de globe
                 </p>

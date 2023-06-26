@@ -15,7 +15,7 @@
   }
   
   .projects2 {
-    background-color: #203781;
+    background-color: #137985;
     margin: 0 auto;
     min-height: 90vh;
     padding: 20px;
@@ -44,40 +44,89 @@
         .project {
           background: var(--main-gray);
           box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-          border-radius: 5px 5px 20px 20px;
+          border-radius: 5px 5px 30px 30px;
           border: 2px solid white;
           transition: all ease-in-out 0.8s;
-          padding: 10px;
+          padding: 5px 5px 15px 5px;
           margin: 10px;
           width: calc(50% - 20px);
           display: flex;
           flex-wrap: nowrap;
           flex-direction: column;
           justify-content: space-between;
-  
+
+          .title-name {
+            margin: 0 auto 0 ;
+            padding: 5px 5px 10px;
+            background-color: #000000;
+            border-radius: 15px 15px 0px 0px;
+            position: relative;
+            transition: 0.3s ease-in-out;
+            overflow: hidden;
+            width: calc(100% - 20px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+
+          }
+
+          .describe {
+            width: calc(90% - 20px);
+            margin: auto;
+            background-color: #000000;
+            color: #fff;
+          }
           .project-header {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            background-color: black;
-            height: calc(50% - 10px);
-            border-radius: 5px 5px 0 0;
-            padding: 10px;
-  
+            background-color: rgb(19, 19, 27);
+            height: calc(50% - 30px);
+            width: calc(100% - 20px);
+            margin: auto;
+            border: 10px solid black;
+            border-radius: 20px 20px 35px 35px;
+            padding: 20px;
+            
+            .tech-badge-card {
+              font-size: 30px;
+              color: hsl(0, 0%, 0%);
+              display:inline-block ;
+              // flex-wrap: wrap;
+              // align-items: center;
+              // justify-content: center;
+              margin-top: 20%;
+              margin-bottom: 0;
+              height: 50%;
+              // border-radius: 50%;
+              // border: 1px solid black;
+              // padding: 10px;
+              
+              .iconBall {
+                background-color: hsl(0, 0%, 9%);
+                box-shadow: 2px 2px 2px black;
+                border-radius: 50%;
+                padding: 12px;
+                max-width: 50px;
+                max-height: 50px;
+              }
+            }
             .project-title {
               color: white;
               display: flex;
               flex-direction: column;
               justify-content: space-between;
               text-align: left;
-              width: 100%;
+              width: 60%;
               height: 100%;
               font-size: 1rem;
   
               .repository {
                 color: greenyellow;
                 font-size: 20px;
+                align-self: flex-end;
               }
   
               .repository:hover {
@@ -85,27 +134,12 @@
               }
             }
   
-            .tech-badge-card {
-              font-size: 30px;
-              color: black;
-              display: flex;
-              flex-direction: row;
-              flex-wrap: wrap;
-              justify-content: space-between;
-              align-items: center;
-              height: 100%;
-  
-              .iconBall {
-                background-color: white;
-                border-radius: 50%;
-                padding: 10px;
-                max-width: 50px;
-                max-height: 50px;
-              }
-            }
+            
           }
   
           .deployLink {
+            border: 2px solid black;
+            background-color: black;
             transition: 0.3s ease-in-out;
             height: calc(50% - 20px);
             width: calc(100% - 20px);
@@ -155,6 +189,7 @@
               transform: rotate(-360deg);
             }
           }
+          
         }
   
         .project:hover {
@@ -191,6 +226,9 @@
             width: calc(50% - 20px);
             .project-header {
               .tech-badge-card {
+                // font-size: 30px;
+              }
+              .tech-badge-card {
                 .iconBall {
                   max-width: 50px;
                   max-height: 50px;
@@ -198,9 +236,7 @@
               }
             }
           }
-          .tech-badge-card {
-            font-size: 30px;
-          }
+          
         }
       }
     }

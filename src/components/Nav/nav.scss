@@ -123,24 +123,41 @@ nav{
 
 @media (max-width: 428px) {
     nav {
-        border-top: 0 solid white;
-        border-bottom: 0 solid white;        
+        border: none;       
         width: 100%;
 
         a {
             .nav-links {
-                font-size: 17px;
+                font-size: 15px;
 
                 .icons {
-                    font-size: 15px;
+                    font-size: 12px;
                 }
                 .iconsR {
-                    font-size: 15px;
+                    font-size: 12px;
                 }
             }
         }
 
-
+        .nav-links:hover {
+            text-shadow: none;
+            font-size: medium;
+    
+            .icons {
+    
+                color:rgb(255, 255, 255);
+                font-size: 16px;
+                animation: nav-spin infinite 3s linear;
+            }
+            .iconsR {
+    
+                color:rgb(53, 53, 53);
+                font-size: 16px;
+                animation: nav-spinR infinite 3.2s linear;
+            }
+    
+            
+        }
         .active {
             font-size: 16px;
             border-bottom: 0 solid white;
@@ -151,7 +168,7 @@ nav{
                 font-size: 10px;
             }
             .iconsR {
-                font-size: 1px;
+                font-size: 10px;
             }
     
             

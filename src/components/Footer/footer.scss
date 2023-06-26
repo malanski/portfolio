@@ -37,8 +37,95 @@ footer {
 
         }
     }
+    .footerAnimation {
+        background-color: black;
+        width: 100%;
+        .scene {
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            // position: relative;
+            perspective: 500px;
+            
+          }
+          
+          .earth, .moon {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+          }
+          
+          .earth {
+            top: 50px;
+            left: 150px;
+            animation: spin 20s linear infinite;
+          }
+          
+          .moon {
+            background: radial-gradient(circle, grey, black);
+            transition: all ease-in-out 800ms;
+            width: 50px;
+            height: 50px;
+            top: 100px;
+            left: 250px;
+            animation: orbit 5s linear infinite;
+          }
+          
+          @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(1turn); }
+          }
+          @keyframes orbit {
+            0% { transform: translateZ(0) translateX(250px) scale(1); 
+              opacity: 1;
+            }
+            25% { transform: translateZ(100px) translateX(-150px) scale(2.5); 
+              opacity: 1;
+            }
+            50% { 
+              transform: translateZ(0) translateX(-250px) scale(1.8);
+              opacity: 1;
+              transition-timing-function: cubic-bezier(0.67, 0.1, 0.63, 0.95);
+            }
+            75% { 
+              transform: translateZ(-100px) translateX(-150px) scale(0.1); 
+              opacity: 0.1;
+            }  
+            100% {     
+              transform: translateZ(0) translateX(250px) scale(0.9); 
+              opacity: 0.2;
+              transition-timing-function: cubic-bezier(0.67, 0.1, 0.63, 0.95); 
+            }
+          }
+          
+    }
+    
 }
 
+@keyframes orbit {
+    0% { transform: translateZ(0) translateX(250px) scale(1); 
+      opacity: 1;
+    }
+    25% { transform: translateZ(100px) translateX(-150px) scale(2.5); 
+      opacity: 1;
+    }
+    50% { 
+      transform: translateZ(0) translateX(-250px) scale(1.8);
+      opacity: 1;
+      transition-timing-function: cubic-bezier(0.67, 0.1, 0.63, 0.95);
+    }
+    75% { 
+      transform: translateZ(-100px) translateX(-150px) scale(0.1); 
+      opacity: 0.1;
+    }  
+    100% {     
+      transform: translateZ(0) translateX(250px) scale(0.9); 
+      opacity: 0.2;
+      transition-timing-function: cubic-bezier(0.67, 0.1, 0.63, 0.95); 
+    }
+  }
+  
 @media (max-width: 428px) {
     footer {
         h3 {
