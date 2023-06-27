@@ -1,7 +1,7 @@
 
 import './home.scss'
 
-export const Home = (props) => {
+export const Home = () => {
     return (
         <div className='project1'>
             <h2>Fullstack Developer</h2>
