@@ -8,24 +8,23 @@ export const Home = () => {
 
             <p className='aboutProject1'>
                 &ensp;&ensp;&ensp;&ensp;
-                I am passionate about the areas of technology and art, my purpose is to
-                unite them focusing on the fullstack development career. Area in which I study
+                I am passionate about technology and art. My purpose is to
+                unite them by focusing on the fullstack development career, area in which I'm studying
                 intensively, looking for challenges and projects to improve my technical
                 knowledge and amplify my self-learning capacity.<br/>
                 <br/>   
                 &ensp;&ensp;&ensp;&ensp;
                 I worked for 7 years as an art teacher, a position in which I developed good
-                communication to exchange information and the ability to act under pressure. At
+                communication to exchange information and the ability to work under pressure. At
                 the same time, since 2011 I have been creating illustrations and drawings in
                 traditional and digital media as a freelance designer and illustrator.<br/>
                 <br/>   
                 &ensp;&ensp;&ensp;&ensp;
-                The most satisfying thing I do is deliver solutions to complex problems
-                 and design solutions that can help the organization I am also able to gather
-                 the client's/company's requirements and translate them into an attractive,
-                 effective and unique website. I have worked in various fields, such as
-                 art education in schools, research and customer service in museums,
-                 and recently as a freelance tattoo artist and illustrator.
+                Delivering solutions to complex problems and design solutions that can help 
+                the enterprise I am working for is one of the most satisfying aspects of my profession, 
+                as much as being able to gather the client's requirements and translate them into an 
+                attractive, effective and unique website. I've worked in a variety of fields, 
+                including research and customer service in museums, art education in schools, and most recently as a freelance tattoo artist and illustrator.
             </p>
             
             {/* <h2>Project <small>(work in progress)</small></h2>

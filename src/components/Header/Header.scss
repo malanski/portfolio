@@ -4,8 +4,9 @@ header {
   transition: background-color 0.5s ease-in-out, color 0.5s ease;
   display: flex;
   flex-direction: column;
-  h1 {
+  .site-title a {
     text-transform: uppercase;
+    color: #207983;
   }
 }
 

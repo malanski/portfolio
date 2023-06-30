@@ -7,6 +7,8 @@ export function Header({ isNightMode, toggleNightMode }) {
 
           return (
             <header className={isNightMode? 'night-mode' : ''}>
+
+              {/* Night-Dark Mode BUTTON */}
               <button className="night-mode-btn" onClick={toggleNightMode}>
                 {isNightMode? 
                 <div className='mode-btn-icons'>
@@ -19,11 +21,10 @@ export function Header({ isNightMode, toggleNightMode }) {
                   <span>&ensp;Night Mode&ensp;</span>
                   <FontAwesomeIcon icon={faMoon} />
                 </div> }
-
               </button>
 
-              <h1 className="title">
-                Ulisses Malanski Portfolio
+              <h1 className="site-title">
+                <a href="https://malanski.github.io/portfolio/">Ulisses Malanski Portfolio</a>
               </h1>
 
               <Nav />
