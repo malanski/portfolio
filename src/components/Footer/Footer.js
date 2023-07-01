@@ -1,7 +1,7 @@
 // import './Header.scss';
 import './footer.scss'
 import earth from '../../../src/assets/planet-earth-png-8.png';
-import moon from '../../../src/assets/moon.png';
+import satelite from '../../../src/assets/satelite.png';
 import { Nav } from '../Nav';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -60,7 +60,7 @@ export function Footer() {
 
                 <div className="scene">
                     <img src={earth} alt="API icon" className="App-logo earth" />
-                    <img src={moon} alt="API icon" className="App-logo moon" />
+                    <img src={satelite} alt="API icon" className="App-logo moon" />
                 </div>
 
                 <p>

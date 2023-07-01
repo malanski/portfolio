@@ -44,7 +44,8 @@ footer {
             position: absolute;
             width: 200px;
             height: 200px;
-            border-radius: 50%;
+            
+            // border-radius: 50%;
           }
           .earth {
             top: 50px;
@@ -52,7 +53,7 @@ footer {
             animation: spin 20s linear infinite;
           }
           .moon {
-            background: radial-gradient(circle, grey, black);
+            // background: radial-gradient(circle, grey, black);
             transition: all ease-in-out 800ms;
             width: 50px;
             height: 50px;
