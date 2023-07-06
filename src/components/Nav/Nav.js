@@ -21,7 +21,7 @@ export function Nav() {
                     <FontAwesomeIcon icon={faGear} className="icons" />  About me <FontAwesomeIcon icon={faGear} className="iconsR" /></span>
             </CustomLink>
 
-            <CustomLink title="Ulisses Malanski Web Dev Projects" to="/projects">
+            <CustomLink title="Ulisses Malanski Web Dev Projects" to="/myprojects">
                 <span className="nav-links"><FontAwesomeIcon icon={faGear} className="icons" /> Projects <FontAwesomeIcon icon={faGear} className="iconsR" /></span>
             </CustomLink>
 

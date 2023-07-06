@@ -1,6 +1,7 @@
 :root {
     --main-red: #be3110;
     --main-blue: #11565d;
+    --main-blue: #53898f;
     --main-gray: #303a41;
   }
   
@@ -13,9 +14,9 @@
     background-color: #333;
     color: #fff;
   }
-  
+   
   .projects2 {
-    background-color: #137985;
+    background-color: var(--main-blueL);
     margin: 0 auto;
     min-height: 90vh;
     padding: 20px;
@@ -239,7 +240,7 @@
           
         }
       }
-    } 
+    }
   }
   
   @media (max-width: 800px) {
