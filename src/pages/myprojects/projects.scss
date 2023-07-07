@@ -1,0 +1,259 @@
+:root {
+    --main-red: #be3110;
+    --main-blue: #11565d;
+    --main-gray: #303a41;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .night-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .projects2 {
+    background-color: #137985;
+    margin: 0 auto;
+    min-height: 90vh;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+  
+    h3 {
+      text-align: left;
+    }
+  
+    .projects-section {
+      text-align: center;
+      background: var(--main-blue);
+  
+      .projects-section-header {
+        max-width: 100%;
+      }
+  
+      .projects-grid {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto 4rem auto;
+  
+        .project {
+          background: var(--main-gray);
+          box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+          border-radius: 5px 5px 30px 30px;
+          border: 2px solid white;
+          transition: all ease-in-out 0.8s;
+          padding: 5px 5px 15px 5px;
+          margin: 10px;
+          width: calc(50% - 20px);
+          display: flex;
+          flex-wrap: nowrap;
+          flex-direction: column;
+          justify-content: space-between;
+
+          .title-name {
+            margin: 0 auto 0 ;
+            padding: 5px 5px 10px;
+            background-color: #000000;
+            border-radius: 15px 15px 0px 0px;
+            position: relative;
+            transition: 0.3s ease-in-out;
+            overflow: hidden;
+            width: calc(100% - 20px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+
+          }
+
+          .describe {
+            width: calc(90% - 20px);
+            margin: auto;
+            background-color: #000000;
+            color: #fff;
+          }
+          .project-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(19, 19, 27);
+            height: calc(50% - 30px);
+            width: calc(100% - 20px);
+            margin: auto;
+            border: 10px solid black;
+            border-radius: 20px 20px 35px 35px;
+            padding: 20px;
+            
+            .tech-badge-card {
+              font-size: 30px;
+              color: hsl(0, 0%, 0%);
+              display:inline-block ;
+              // flex-wrap: wrap;
+              // align-items: center;
+              // justify-content: center;
+              margin-top: 20%;
+              margin-bottom: 0;
+              height: 50%;
+              // border-radius: 50%;
+              // border: 1px solid black;
+              // padding: 10px;
+              
+              .iconBall {
+                background-color: hsl(0, 0%, 9%);
+                box-shadow: 2px 2px 2px black;
+                border-radius: 50%;
+                padding: 12px;
+                max-width: 50px;
+                max-height: 50px;
+              }
+            }
+            .project-title {
+              color: white;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              text-align: left;
+              width: 60%;
+              height: 100%;
+              font-size: 1rem;
+  
+              .repository {
+                color: greenyellow;
+                font-size: 20px;
+                align-self: flex-end;
+              }
+  
+              .repository:hover {
+                text-shadow: 1px 1px 2px greenyellow;
+              }
+            }
+  
+            
+          }
+  
+          .deployLink {
+            border: 2px solid black;
+            background-color: black;
+            transition: 0.3s ease-in-out;
+            height: calc(50% - 20px);
+            width: calc(100% - 20px);
+            margin: auto;
+            border-radius: 0 0 20px 20px;
+            padding: 0;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+  
+            .project-image {
+              width: calc(100% - 30px);
+              height: calc(100% - 30px);
+              position: relative;
+              transition: 0.3s ease-in-out;
+              border-radius: 0 0 20px 20px;
+              margin-bottom: 20px;
+            }
+          }
+  
+          .deployLink:hover::before {
+            content: "";
+            background-image: conic-gradient(greenyellow 20deg, transparent 120deg);
+            width: 150%;
+            height: 150%;
+            position: absolute;
+            animation: rotate 2s linear infinite;
+          }
+  
+          .deployLink::after {
+            width: calc(90% - 30px);
+            height: calc(90% - 30px);
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: inset 20px 20px 20px greenyellow;
+          }
+  
+          @keyframes rotate {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(-360deg);
+            }
+          }
+          
+        }
+  
+        .project:hover {
+          border-color: greenyellow;
+          box-shadow: 1px 1px 10px greenyellow;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 1433px) {
+    .projects2 {
+      .projects-section {
+        .projects-grid {
+          .project {
+            .project-header {
+              .project-title {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 1405px) {
+    .projects2 {
+      width: 90%;
+      margin-left: auto;
+      .projects-section {
+        .projects-grid {
+          .project {
+            width: calc(50% - 20px);
+            .project-header {
+              .tech-badge-card {
+                // font-size: 30px;
+              }
+              .tech-badge-card {
+                .iconBall {
+                  max-width: 50px;
+                  max-height: 50px;
+                }
+              }
+            }
+          }
+          
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .projects2 {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      .projects-section {
+        .projects-grid {
+          .project {
+            width: calc(100% - 20px);
+          }
+        }
+      }
+    }
+  }
+  
