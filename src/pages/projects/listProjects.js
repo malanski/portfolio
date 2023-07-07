@@ -2,23 +2,39 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import apiIcon from '../../../src/assets/APIlogo.png';
 import { faCss3, faCss3Alt, faHtml5, faJs, faReact, faSass, faWikipediaW } from '@fortawesome/free-brands-svg-icons';
-import { faCalculator, faDatabase, faGamepad, faList, faPerson, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faCalculator, faCircleCheck, faDatabase, faGamepad, faList, faPerson, faSearch, faT } from '@fortawesome/free-solid-svg-icons';
 
 const listProjects = [
   {
-    name:"Full CRUD Form",
-    describe: "Interface with NodeJs Backend",
-    skills: "ReactJs + Material UI",
+    name:"Fullstack CRUD Form",
+    describe: "Client Management API",
+    skills: "ReactJs + MUI + Yup + NoSQL + Node",
     type: "Fullstack Form",
     repositoryLink: "https://github.com/malanski/fullstack-crud",
     deployLink: "https://fullstack-crud-malanski.vercel.app/#/",
     image: "https://github.com/malanski/images/raw/main/crudFullStack.png",
-    imgAlt: "A backend form web page print screen",
-    details: "A web application (CRUD) to manage patient registers (Patient's name, birth date, email and address).",
+    imgAlt: "A fullstack form web page print screen",
+    details: "Fullstack project that implement a Client Management API using Node.js and the Express framework. The API allows users to perform CRUD (Create, Read, Update, Delete) operations on client records stored in a MongoDB database. ",
     badgeFont: {
       fontOne: <img src={apiIcon} alt="API icon" className="iconBall" width="50px" />,
       fontTwo: <FontAwesomeIcon icon={faDatabase} className="iconBall" />,
       fontThree: <FontAwesomeIcon icon={faJs} className="iconBall" />,
+    }
+  },
+  {
+    name:"Task Organizer",
+    describe: "Create tasks and organize to-do items",
+    skills: "TypeScript + HTML + CSS",
+    type: "Task Manager",
+    repositoryLink: "https://github.com/malanski/vite-project-one",
+    deployLink: "https://malanski.github.io/memory-game/",
+    image: "https://github.com/malanski/images/raw/main/todoTask.png",
+    imgAlt: "A memory game javascript app",
+    details: "A JavaScript-based Memory Game, where the player needs to match pairs of cards with identical images. The game tracks the number of moves (tentativas) taken by the player and displays different messages based on their performance. The game is won when all pairs are matched successfully.",
+    badgeFont: {
+      fontOne: <FontAwesomeIcon icon={faT} className="iconBall" />,
+      fontTwo: <FontAwesomeIcon icon={faCircleCheck} className="iconBall" />,
+      fontThree: <FontAwesomeIcon icon={faCss3} className="iconBall" />,
     }
   },
   {
@@ -30,6 +46,7 @@ const listProjects = [
     deployLink: "https://malanski.github.io/memory-game/",
     image: "https://github.com/malanski/images/raw/main/memory-game.png",
     imgAlt: "A memory game javascript app",
+    details: "A JavaScript-based Memory Game, where the player needs to match pairs of cards with identical images. The game tracks the number of moves (tentativas) taken by the player and displays different messages based on their performance. The game is won when all pairs are matched successfully.",
     badgeFont: {
       fontOne: <FontAwesomeIcon icon={faGamepad} className="iconBall" />,
       fontTwo: <FontAwesomeIcon icon={faJs} className="iconBall" />,
@@ -39,12 +56,13 @@ const listProjects = [
   {
     name:"Poke-Store",
     describe: "Web Store Consuming Pokémon API",
-    skills: "NextJs + Sass",
+    skills: "NextJs + Sass + Chakra Ui + SWR + FontAwesome",
     type: "E-commerce",
     repositoryLink: "https://github.com/malanski/poke-store-next",
     deployLink: "https://poke-store-next.vercel.app/",
     image: "https://github.com/malanski/images/raw/main/pokeStoreNext.png",
     imgAlt: "Pokémon API based Web store print screen",
+    details: "An e-commerce web store built using ReactJS, NextJS, SASS, SWR, Chakra UI, FontAwesome, Node, JavaScript.",
     badgeFont: {
       fontOne: <img src={apiIcon} alt="API icon" className="iconBall" width="50px" />,
       fontTwo: <FontAwesomeIcon icon={faReact} className="iconBall" />,

@@ -1,6 +1,6 @@
 import './projects2.scss';
 
-import ProjectList from './ProjectsList'
+import ProjectCard from './ProjectCard'
 
 export const Projects = () => {
     return (
@@ -10,7 +10,7 @@ export const Projects = () => {
                 <hr />
                 
                 <div >
-                    <ProjectList />
+                    <ProjectCard />
                 </div>
             </section>
         </div>
