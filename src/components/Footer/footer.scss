@@ -1,13 +1,17 @@
 :root {
   --main-red: #be3110;
+  --main-clear: #b0cbce;
+  --main-blueL: #3f787e;
   --main-blue: #11565d;
   --main-grayL: #292a2a;
   --main-gray: #151718;
   --main-dark: #080d10;
 }
+
 footer {
-    background-color: #282C34;
-    color: white;
+    background-color: var(--main-grayL);
+    color: var(--main-clear);
+
     .social-links {
         display: flex;
         justify-content: space-around;
@@ -15,11 +19,11 @@ footer {
         padding: 20px 0 20px 0;
         .social-media {
             text-decoration: none;
-            color: greenyellow;
+            color: var(--main-clear);
             width: calc(20% - 40px);
             height: 100px;
             padding: 5px;
-            border: 1px solid greenyellow;
+            border: 1px solid var(--main-clear);
             border-radius: 20px;
             display: flex;
             flex-direction: column;
@@ -31,15 +35,15 @@ footer {
             }
         }
         .social-media:hover {
-            background-color: black;
+            background-color: var(--main-dark);
             color: white;
-            -webkit-box-shadow: 1px 0px 28px -4px rgba(76,199,92,1);
-            -moz-box-shadow: 1px 0px 28px -4px rgba(76,199,92,1);
-            box-shadow: 1px 0px 28px -4px rgba(76,199,92,1);
+            -webkit-box-shadow: 1px 0px 28px -4px var(--main-clear);
+            -moz-box-shadow: 1px 0px 28px -4px var(--main-clear);
+            box-shadow: 1px 0px 28px -4px var(--main-clear);
         }
     }
     .footerAnimation {
-        background-color: black;
+      background-color: var(--main-dark);
         width: 100%;
         .scene {
             width: 300px;

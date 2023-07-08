@@ -13,7 +13,7 @@ const ProjectCard = () => {
         <Box key={index} className="project">
 
           <Box className='sections sectionOne'>
-            <h3 className="project-name"><big><b>{project.name}</b></big></h3>
+            <h3 className="project-name"><span>{project.id}</span><big><b>{project.name}</b></big></h3>
 
             <Box className="imageSpin">
                 <img className="project-image"
@@ -31,7 +31,7 @@ const ProjectCard = () => {
             <a href={project.deployLink}
               className='deployLink' target="_blank" rel='noreferrer'
               title={`Try the ${project.name} deploy link`}>
-              Click here to try yourself the deploy.
+              Click here to try yourself the {project.name} deploy.
             </a>
           </Box>
 
