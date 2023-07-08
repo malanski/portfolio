@@ -31,7 +31,25 @@
         }
     }
 }
-@media (max-width: 428px) {
+@media (max-width: 1121px) {
+    .skills {      
+      width: 50%;
+      margin-left:50%;
+    }
+}
+@media (max-width: 677px) {
+    .skills {      
+      width: 60%;
+      margin-left: 40%;
+    }
+}
+@media (max-width: 565px) {
+    .skills {      
+      width: 70%;
+      margin-left: 30%;
+    }
+}
+@media (max-width: 482px) {
     .skills {      
       width: 100%;
       margin-left: 0;

@@ -1,0 +1,21 @@
+:root {
+    --main-red: #be3110;
+    --main-blue: #11565d;
+    --main-grayL: #292a2a;
+    --main-gray: #151718;
+    --main-dark: #080d10;
+  }
+  
+ 
+  .night-mode {
+    background-color: var(--main-gray);
+    color: #fff;
+    .projects {
+       background-color: var(--main-grayL);
+       .projects-section {
+          background-color: var(--main-dark);
+
+       }
+      }
+  }
+  

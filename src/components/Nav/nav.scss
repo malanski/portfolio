@@ -175,3 +175,14 @@ nav{
         }
     }
 }
+@media (max-width: 520px) {
+    nav {      
+        .icons{
+            display: none;
+        }
+        .iconsR {
+            display: none;
+
+        }
+    }
+}
