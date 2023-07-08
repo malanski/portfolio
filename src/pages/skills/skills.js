@@ -1,13 +1,16 @@
 import './skills.scss'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { 
+import {
     faArrowRight, faBattery, faBattery2, faBattery3, faBattery4,
-    faCode, faFlagUsa, faList, faPaintbrush, faPenAlt, faPenToSquare,
-    faRobot
+    faCode, faFlagUsa, faList, faMusic, faPaintbrush, faPenAlt, faPenToSquare,
+    faRobot,
+    faV
 } from '@fortawesome/free-solid-svg-icons';
-import { faCss3, faDocker, faFigma, faGit, faGitAlt, faHtml5, faJs,
-    faLinux, faMicrosoft, faNodeJs, faReact, faSass 
+import {
+    faAngular,
+    faCss3, faDocker, faFigma, faGit, faGitAlt, faHtml5, faJs,
+    faLinux, faMicrosoft, faNodeJs, faReact, faSass
 } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -24,6 +27,30 @@ export const Skills = () => {
                 </li>
 
                 <li>
+                    <FontAwesomeIcon className='icone' icon={faReact} />
+                    ReactJs SPA framewok
+                    <FontAwesomeIcon className='icone' icon={faBattery4} />
+                </li>
+
+                <li>
+                    <FontAwesomeIcon className='icone' icon={faV} />
+                    Vite
+                    <FontAwesomeIcon className='icone' icon={faBattery3} />
+                </li>
+
+                <li>
+                    <FontAwesomeIcon className='icone' icon={faReact} />
+                    NextJs
+                    <FontAwesomeIcon className='icone' icon={faBattery3} />
+                </li>
+
+                <li>
+                    <FontAwesomeIcon className='icone' icon={faGit} />
+                    Git and GitHub
+                    <FontAwesomeIcon className='icone' icon={faBattery4} />
+                </li>
+
+                <li>
                     <FontAwesomeIcon className='icone' icon={faHtml5} />
                     HTML
                     <FontAwesomeIcon className='icone' icon={faBattery} />
@@ -31,7 +58,7 @@ export const Skills = () => {
 
                 <li>
                     <FontAwesomeIcon className='icone' icon={faCss3} />
-                    CSS (SASS) responsivity                    
+                    CSS (SASS) responsivity
                     <FontAwesomeIcon className='icone' icon={faBattery} />
                 </li>
 
@@ -46,45 +73,15 @@ export const Skills = () => {
                     SASS
                     <FontAwesomeIcon className='icone' icon={faBattery} />
                 </li>
-                
-                <li>
-                    <FontAwesomeIcon className='icone' icon={faReact} />
-                    ReactJs SPA framewok                    
-                    <FontAwesomeIcon className='icone' icon={faBattery4} />
-                </li>
-                
-                <li>
-                    <FontAwesomeIcon className='icone' icon={faGit} />
-                    Git and GitHub
-                    <FontAwesomeIcon className='icone' icon={faBattery4} />
-                </li>
 
-                <li>
-                    <FontAwesomeIcon className='icone' icon={faReact} />
-                    NextJs
-                    <FontAwesomeIcon className='icone' icon={faBattery3} />
-                </li>
+
+
+
             </ul>
 
             <h3>Studying right now</h3>
 
             <ul className='abilities'>
-                <li>
-                    <FontAwesomeIcon className='icone' icon={faList} />
-                    SQL
-                    <FontAwesomeIcon className='icone' icon={faBattery2} />
-                </li>
-                <li>
-                    <FontAwesomeIcon className='icone' icon={faDocker} />
-                    Docker Compose
-                    <FontAwesomeIcon className='icone' icon={faBattery2} />
-                </li>
-               
-                <li>
-                    <FontAwesomeIcon className='icone' icon={faJs} />
-                    JavaScript advanced
-                    <FontAwesomeIcon className='icone' icon={faBattery3} />
-                </li>
 
                 <li>
                     <FontAwesomeIcon className='icone' icon={faPenToSquare} />
@@ -93,14 +90,26 @@ export const Skills = () => {
                 </li>
 
                 <li>
+                    <FontAwesomeIcon className='icone' icon={faList} />
+                    Backend
+                    <FontAwesomeIcon className='icone' icon={faBattery2} />
+                </li>
+
+                <li>
+                    <FontAwesomeIcon className='icone' icon={faJs} />
+                    JavaScript advanced
+                    <FontAwesomeIcon className='icone' icon={faBattery3} />
+                </li>
+
+                <li>
                     <FontAwesomeIcon className='icone' icon={faGitAlt} />
                     Git advanced
                     <FontAwesomeIcon className='icone' icon={faBattery4} />
                 </li>
                 <li>
-                    <FontAwesomeIcon className='icone' icon={faArrowRight} />
-                    NextJs
-                    <FontAwesomeIcon className='icone' icon={faBattery4} />
+                    <FontAwesomeIcon className='icone' icon={faAngular} />
+                    Angular
+                    <FontAwesomeIcon className='icone' icon={faBattery2} />
                 </li>
             </ul>
 
@@ -128,7 +137,7 @@ export const Skills = () => {
                     <FontAwesomeIcon className='icone' icon={faPenAlt} />
                     Illustrator
                     <FontAwesomeIcon className='icone' icon={faBattery} />
-                </li>               
+                </li>
 
                 <li>
                     <FontAwesomeIcon className='icone' icon={faPaintbrush} />
@@ -137,15 +146,27 @@ export const Skills = () => {
                 </li>
 
                 <li>
+                    <FontAwesomeIcon className='icone' icon={faMusic} />
+                    Ableton Live, Nuendo, Cubase
+                    <FontAwesomeIcon className='icone' icon={faBattery} />
+                </li>
+
+                <li>
                     <FontAwesomeIcon className='icone' icon={faRobot} />
                     Virtual Box
                     <FontAwesomeIcon className='icone' icon={faBattery2} />
+                </li>
+
+                <li>
+                    <FontAwesomeIcon className='icone' icon={faRobot} />
+                    Automatic 1111
+                    <FontAwesomeIcon className='icone' icon={faBattery3} />
                 </li>
             </ul>
 
             <h3>OS</h3>
             <ul className='abilities'>
-            <li>
+                <li>
                     <FontAwesomeIcon className='icone' icon={faMicrosoft} />
                     Windows
                     <FontAwesomeIcon className='icone' icon={faBattery4} />

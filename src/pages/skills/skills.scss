@@ -1,6 +1,24 @@
+:root {
+    --main-red: #be3110;
+    --main-clear: #b0cbce;
+    --main-blueL: #3f787e;
+    --main-blue: #11565d;
+    --main-grayL: #292a2a;
+    --main-gray: #151718;
+    --main-dark: #080d10;
+  }
+  .night-mode {
+    .skills {
+      background-color: var(--main-dark);
+      color: var(--main-clear);
+
+    }
+  }
+  
+
 .skills {
-    background-color: black;
-    color: white;
+    background-color: var(--main-blue);
+    color: var(--main-dark);
     margin-left: 70%;
     padding: 20px;
     width: 30%;
@@ -19,7 +37,7 @@
             margin-bottom: 5px;
             .icone {
                 font-size: 22px;
-                color: greenyellow;
+                  color: var(--main-blueL);
             }
             span {
                 

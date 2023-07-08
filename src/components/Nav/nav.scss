@@ -1,10 +1,21 @@
+:root {
+    --main-red: #be3110;
+    --main-clear: #b0cbce;
+    --main-blueL: #3f787e;
+    --main-blue: #11565d;
+    --main-grayL: #292a2a;
+    --main-gray: #151718;
+    --main-dark: #080d10;
+  }
+
 nav{
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: var(--main-dark);
+
+
     margin: 0;
     padding: 0;
     border-top: 5px solid white;
@@ -17,7 +28,8 @@ nav{
         width: 30%;
 
         .nav-links {
-            color: greenyellow;
+            color: var(--main-clear);
+
             text-transform: uppercase;
             transition: all ease-in-out 0.4s;
 

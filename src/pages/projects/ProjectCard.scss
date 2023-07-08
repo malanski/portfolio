@@ -1,16 +1,23 @@
 :root {
-    --main-red: #be3110;
-    --main-blueL: #3f787e;
-    --main-blue: #11565d;
-    --main-grayL: #292a2a;
-    --main-gray: #151718;
-    --main-dark: #080d10;
-  }
-  
- 
+  --main-red: #be3110;
+  --main-clear: #b0cbce;
+  --main-blueL: #3f787e;
+  --main-blue: #11565d;
+  --main-grayL: #292a2a;
+  --main-gray: #151718;
+  --main-dark: #080d10;
+}
   .night-mode {
     .projects-grid .project {
       background-color: var(--main-gray);
+      .sectionOne {
+        .deployLink {
+          background-color: var(--main-dark);
+          -webkit-box-shadow: 1px 0px 12px -4px var(--main-clear);
+            -moz-box-shadow: 1px 0px 12px -4px var(--main-clear);
+            box-shadow: 1px 0px 12px -4px var(--main-clear);
+        }
+      }
       .sectionTwo {
         .projectType {
           background-color: var(--main-dark);
@@ -38,9 +45,11 @@
       width: 80vw;
       display: flex;
       flex-direction: row;
+      justify-content: center;
+      align-items: center;
       margin: 0 auto;
       border-radius: 20px;
-      padding: 20px;
+      padding: 10px;
       background-color: var(--main-blueL);
       a {
         text-decoration: none;
@@ -60,7 +69,24 @@
           text-transform: uppercase;
         }
         .project-image{
-          width: 55%;
+          width: 52%;
+        }
+        .deployLink {
+          width: 80%;
+          padding: 10px 5px;
+          background-color: var(--main-blue);
+          border-radius: 8px;
+          transition: all ease-in-out 800ms;
+
+        }
+        .deployLink:hover {
+          background-color: var(--main-dark);
+          transition: all ease-in-out 800ms;
+          background-color: var(--main-dark);
+            color: white;
+            -webkit-box-shadow: 1px 0px 28px -4px var(--main-clear);
+            -moz-box-shadow: 1px 0px 28px -4px var(--main-clear);
+            box-shadow: 1px 0px 28px -4px var(--main-clear);
         }
       }
       .sectionTwo {
