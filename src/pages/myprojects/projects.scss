@@ -14,13 +14,14 @@
     color: #fff;
   }
   
-  .projects2 {
+  .projects {
     background-color: #137985;
     margin: 0 auto;
     min-height: 90vh;
     padding: 20px;
     width: 50%;
     text-align: center;
+    transition: all ease-in-out 800ms;
   
     h3 {
       text-align: left;

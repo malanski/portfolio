@@ -1,4 +1,4 @@
-import './projects.scss';
+import './myProjects.scss';
 
 import ProjectCard from './ProjectCard'
 

@@ -1,7 +1,7 @@
 // import './Header.scss';
 import './footer.scss'
-import earth from '../../../src/assets/planet-earth-png-8.png';
-import satelite from '../../../src/assets/satelite.png';
+// import earth from '../../../src/assets/planet-earth-png-8.png';
+// import satelite from '../../../src/assets/satelite.png';
 import { Nav } from '../Nav';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -56,7 +56,7 @@ export function Footer() {
 
             </div>
             
-            <div className="footerAnimation">
+            {/* <div className="footerAnimation">
 
                 <div className="scene">
                     <img src={earth} alt="API icon" className="App-logo earth" />
@@ -67,7 +67,7 @@ export function Footer() {
                     Open to work around de globe
                 </p>
                 
-            </div>
+            </div> */}
         </footer>
      )
 }
