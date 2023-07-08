@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Home } from './pages/home';
-import { MyProjects } from './pages/myprojects';
+import { Projects } from './pages/projects';
 import { Skills } from './pages/skills';
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
         <main>
           <Routes>
             <Route path ='/' element={<Home />} />
-            <Route path ='/myprojects' element={<MyProjects />} />
+            <Route path ='/projects' element={<Projects />} />
             <Route path ='/skills' element={<Skills />} />
           </Routes>
         </main>
