@@ -36,11 +36,15 @@ const ProjectCard = () => {
           </Box>
 
           <Box className='sections sectionTwo'>
-            <p className='projectType' title='Project Type'>{project.type}</p>
+            <p className='projectType textContainer' title='Project Type'>
+              <span>Type:</span> {project.type}
+            </p>
 
-            <p className='describe' title='Project description'>{project.describe}</p>
+            <p className='describe textContainer' title='Project description'>
+              <span>Functionalities:</span> {project.describe}
+            </p>
 
-            <div>
+            <div className='tech'>
               <p title='Project Requirements'>{project.skills}</p>
               <Box className='tech-badges'>
                 {Object.keys(project.badgeFont).map((font, index) => (

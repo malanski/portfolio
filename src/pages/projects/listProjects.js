@@ -56,7 +56,7 @@ const listProjects = [
   {
     name:"Poke-Store",
     describe: "Web Store Consuming Pokémon API",
-    skills: "NextJs + Sass + Chakra Ui + SWR + FontAwesome",
+    skills: "NextJs + Sass + Chakra Ui + SWR",
     type: "E-commerce",
     repositoryLink: "https://github.com/malanski/poke-store-next",
     deployLink: "https://poke-store-next.vercel.app/",
