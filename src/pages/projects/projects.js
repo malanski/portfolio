@@ -1,10 +1,10 @@
-import './projects2.scss';
+import './Projects.scss';
 
 import ProjectCard from './ProjectCard'
 
 export const Projects = () => {
     return (
-        <div className='projects2'>
+        <div className='projects'>
 
             <section className="projects-section">
                 <hr />
