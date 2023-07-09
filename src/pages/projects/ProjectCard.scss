@@ -27,6 +27,9 @@
         }
         .tech {
           background-color: var(--main-dark);
+          .api {
+            filter:invert(1) ;
+          }
         }
       }
     }
@@ -120,7 +123,7 @@
         .tech-badges {
           display: flex;
           justify-content: space-around;
-
+          
           span {
             width: 50px;
             height: 50px;

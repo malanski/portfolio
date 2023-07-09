@@ -2,14 +2,14 @@ import './skills.scss'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-    faArrowRight, faBattery, faBattery2, faBattery3, faBattery4,
+    faBattery, faBattery2, faBattery3, faBattery4,
     faCode, faFlagUsa, faList, faMusic, faPaintbrush, faPenAlt, faPenToSquare,
     faRobot,
     faV
 } from '@fortawesome/free-solid-svg-icons';
 import {
     faAngular,
-    faCss3, faDocker, faFigma, faGit, faGitAlt, faHtml5, faJs,
+    faCss3, faFigma, faGit, faGitAlt, faHtml5, faJs,
     faLinux, faMicrosoft, faNodeJs, faReact, faSass
 } from '@fortawesome/free-brands-svg-icons';
 

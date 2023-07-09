@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import apiIcon from '../../../src/assets/APIlogo.png';
 import { faCss3, faCss3Alt, faHtml5, faJs, faReact, faSass, faWikipediaW } from '@fortawesome/free-brands-svg-icons';
-import { faCalculator, faCircleCheck, faDatabase, faGamepad, faList, faPerson, faSearch, faT } from '@fortawesome/free-solid-svg-icons';
+import { faCalculator, faCircleCheck, faDatabase, faGamepad, faJ, faN, faList, faPerson, faSearch, faT } from '@fortawesome/free-solid-svg-icons';
 
 const listProjects = [
   {
@@ -16,7 +16,7 @@ const listProjects = [
     imgAlt: "A fullstack form web page print screen",
     details: "Fullstack project that implement a Client Management API using Node.js and the Express framework. The API allows users to perform CRUD (Create, Read, Update, Delete) operations on client records stored in a MongoDB database. ",
     badgeFont: {
-      fontOne: <img src={apiIcon} alt="API icon" className="iconBall" width="50px" />,
+      fontOne: <img src={apiIcon} alt="API icon" className="iconBall api" width="50px" />,
       fontTwo: <FontAwesomeIcon icon={faDatabase} className="iconBall" />,
       fontThree: <FontAwesomeIcon icon={faJs} className="iconBall" />,
     }
@@ -39,16 +39,16 @@ const listProjects = [
   },
   {
     name:"Quote Generator",
-    describe: "Using a remote Json file with quotes to fetch them ramdomly",
-    skills: "TypeScript + React + Vite",
+    describe: "Fetching quotes API randomly",
+    skills: "TypeScript + React + Vite + Jquery",
     type: "Search",
     repositoryLink: "https://quote-gen-red.vercel.app/",
     deployLink: "https://quote-gen-red.vercel.app/",
     image: "https://github.com/malanski/images/raw/main/Quote.png",
     imgAlt: "Quote Generator using a remote JSON file",
     badgeFont: {
-      fontOne: <FontAwesomeIcon icon={faSearch} className="iconBall" />,
-      fontTwo: <FontAwesomeIcon icon={faDatabase} className="iconBall" />,
+      fontOne: <FontAwesomeIcon icon={faJ} className="iconBall" />,
+      fontTwo: <FontAwesomeIcon icon={faReact} className="iconBall" />,
       fontThree: <FontAwesomeIcon icon={faT} className="iconBall" />,
     }
   },
@@ -79,9 +79,9 @@ const listProjects = [
     imgAlt: "Pokémon API based Web store print screen",
     details: "An e-commerce web store built using ReactJS, NextJS, SASS, SWR, Chakra UI, FontAwesome, Node, JavaScript.",
     badgeFont: {
-      fontOne: <img src={apiIcon} alt="API icon" className="iconBall" width="50px" />,
+      fontOne: <FontAwesomeIcon icon={faN} className="iconBall" />,
       fontTwo: <FontAwesomeIcon icon={faReact} className="iconBall" />,
-      fontThree: <FontAwesomeIcon icon={faSass} className="iconBall" />,
+      fontThree: <img src={apiIcon} alt="API icon" className="iconBall api" width="50px" />,
     }
   },
   {
@@ -95,7 +95,7 @@ const listProjects = [
     imgAlt: "Web app consuming weather API",
     details: "A web application that utilizes the OpenWeatherMap API to fetch weather data based on the user's geolocation. The app displays daily weather forecasts for the current location, including information such as day of the week, weather description, icon representation, sunrise, sunset, high and low temperatures, humidity, wind speed, and wind gusts.",
     badgeFont: {
-      fontOne: <img src={apiIcon} alt="API icon" className="iconBall" width="50px" />,
+      fontOne: <img src={apiIcon} alt="API icon" className="iconBall api" width="50px" />,
       fontTwo: <FontAwesomeIcon icon={faReact} className="iconBall" />,
       fontThree: <FontAwesomeIcon icon={faCss3} className="iconBall" />,
     }
@@ -111,7 +111,7 @@ const listProjects = [
     imgAlt: "Web app consuming Star Wars characters list API",
     details: "This is a simple web application that fetches a random character from the Star Wars universe using the Star Wars API (SWAPI). The app allows users to toggle between light and dark modes for a better user experience.",
     badgeFont: {
-      fontOne: <img src={apiIcon} alt="API icon" className="iconBall" width="50px" />,
+      fontOne: <img src={apiIcon} alt="API icon" className="iconBall api" width="50px" />,
       fontTwo: <FontAwesomeIcon icon={faReact} className="iconBall" />,
       fontThree: <FontAwesomeIcon icon={faCss3} className="iconBall" />,
     }
@@ -142,7 +142,7 @@ const listProjects = [
     imgAlt: "Web app consuming API layout",
     details: "This is a simple app that utilizes the Spotify API to fetch and display information about music genres, playlists, and tracks. The app is built using JavaScript and does not require any server-side code as it directly interacts with the Spotify API.",
     badgeFont: {
-      fontOne: <img src={apiIcon} alt="API icon" className="iconBall" width="50px" />,
+      fontOne: <img src={apiIcon} alt="API icon" className="iconBall api" width="50px" />,
       fontTwo: <FontAwesomeIcon icon={faCss3} className="iconBall" />,
       fontThree: <FontAwesomeIcon icon={faJs} className="iconBall" />,
       // fontFour: <FontAwesomeIcon icon={faHtml5} className="iconBall" />,
@@ -206,7 +206,7 @@ const listProjects = [
     imgAlt: "Pokémon card game styled web store",
     details: "This is one of my first application projects creating a responsive Ecommerce website using HTML, CSS - SASS, JavaScript and API. The project's teacher is Henrique Marques. I decided to take inspiration from the Pokémon card game to display the most relevant images found in the API.",
     badgeFont: {
-      fontOne: <img src={apiIcon} alt="API icon" className="iconBall" width="50px" />,
+      fontOne: <img src={apiIcon} alt="API icon" className="iconBall api" width="50px" />,
       fontTwo: <FontAwesomeIcon icon={faHtml5} className="iconBall" />,
       fontThree: <FontAwesomeIcon icon={faJs} className="iconBall" />,
     }
