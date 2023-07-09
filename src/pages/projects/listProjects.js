@@ -46,6 +46,7 @@ const listProjects = [
     deployLink: "https://quote-gen-red.vercel.app/",
     image: "https://github.com/malanski/images/raw/main/Quote.png",
     imgAlt: "Quote Generator using a remote JSON file",
+    details: "A React application that generates random quotes. Each time you click the `New quote` button, a new quote will be displayed along with the author. You can also share the quotes on Twitter or Tumblr using the provided buttons.",
     badgeFont: {
       fontOne: <FontAwesomeIcon icon={faJ} className="iconBall" />,
       fontTwo: <FontAwesomeIcon icon={faReact} className="iconBall" />,
