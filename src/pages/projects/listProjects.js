@@ -38,6 +38,21 @@ const listProjects = [
     }
   },
   {
+    name:"Quote Generator",
+    describe: "Using a remote Json file with quotes to fetch them ramdomly",
+    skills: "TypeScript + React + Vite",
+    type: "Search",
+    repositoryLink: "https://quote-gen-red.vercel.app/",
+    deployLink: "https://quote-gen-red.vercel.app/",
+    image: "https://github.com/malanski/images/raw/main/Quote.png",
+    imgAlt: "Quote Generator using a remote JSON file",
+    badgeFont: {
+      fontOne: <FontAwesomeIcon icon={faSearch} className="iconBall" />,
+      fontTwo: <FontAwesomeIcon icon={faDatabase} className="iconBall" />,
+      fontThree: <FontAwesomeIcon icon={faT} className="iconBall" />,
+    }
+  },
+  {
     name:"Memory Game",
     describe: "Album covers based memory game",
     skills: "JavaScript + HTML + CSS",
@@ -178,21 +193,6 @@ const listProjects = [
       fontOne: <FontAwesomeIcon icon={faSearch} className="iconBall" />,
       fontTwo:  <FontAwesomeIcon icon={faWikipediaW} className="iconBall" />,
       fontThree:  <FontAwesomeIcon icon={faJs} className="iconBall" />,
-    }
-  },
-  {
-    name:"Quote Generator",
-    describe: "Using a remote Json file with quotes to fetch them ramdomly",
-    skills: "JavaScript + HTML + CSS",
-    type: "Search",
-    repositoryLink: "https://codepen.io/malanski/pen/QWQjgaZ",
-    deployLink: "https://codepen.io/malanski/full/QWQjgaZ",
-    image: "https://github.com/malanski/images/raw/main/Quote.png",
-    imgAlt: "Quote Generator using a remote JSON file",
-    badgeFont: {
-      fontOne: <FontAwesomeIcon icon={faSearch} className="iconBall" />,
-      fontTwo: <FontAwesomeIcon icon={faDatabase} className="iconBall" />,
-      fontThree: <FontAwesomeIcon icon={faJs} className="iconBall" />,
     }
   },
   {
