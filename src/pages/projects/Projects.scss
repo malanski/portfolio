@@ -1,11 +1,13 @@
 :root {
-    --main-red: #be3110;
-    --main-blue: #11565d;
-    --main-grayL: #292a2a;
-    --main-gray: #151718;
-    --main-dark: #080d10;
-  }
-  
+   --main-red: #be3110;
+   --main-clear: #b0cbce;
+   --main-blueL: #3f787e;
+   --main-blue: #11565d;
+   --main-grayL2: #464747;
+   --main-grayL: #292a2a;
+   --main-gray: #151718;
+   --main-dark: #080d10;
+ }
  
   .night-mode {
     background-color: var(--main-gray);
@@ -13,8 +15,7 @@
     .projects {
        background-color: var(--main-grayL);
        .projects-section {
-          background-color: var(--main-dark);
-
+          background-color: var(--main-grayL2);
        }
       }
   }

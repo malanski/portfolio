@@ -10,12 +10,21 @@
   .night-mode {
     .projects-grid .project {
       background-color: var(--main-gray);
+      .button {
+        background-color: var(--main-dark);
+        -webkit-box-shadow: 1px 0px 12px -4px var(--main-clear);
+          -moz-box-shadow: 1px 0px 12px -4px var(--main-clear);
+          box-shadow: 1px 0px 12px -4px var(--main-clear);
+      }
       .sectionOne {
         .deployLink {
           background-color: var(--main-dark);
           -webkit-box-shadow: 1px 0px 12px -4px var(--main-clear);
             -moz-box-shadow: 1px 0px 12px -4px var(--main-clear);
             box-shadow: 1px 0px 12px -4px var(--main-clear);
+        }
+        .details {
+          background-color: var(--main-grayL);
         }
       }
       .sectionTwo {
@@ -41,62 +50,68 @@
     justify-content: flex-start;
     width: 100vw;
     gap: 40px;
-    padding: 10px 0px 20px 0px;
+    padding: 16px 0px 24px 0px;
 
     .project{
       height: 90vh;
       width: 80vw;
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       margin: 0 auto;
-      border-radius: 20px;
-      padding: 10px;
+      border-radius: 24px;
+      padding: 16px 24px;
       background-color: var(--main-blueL);
       a {
         text-decoration: none;
         color: aqua;
       }
       .sections {
-        width: 50%;
+        width: calc(50% - 32px);
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
       }
+      .button {
+        width: 80%;
+        padding: 16px 8px;
+        background-color: var(--main-blue);
+        border-radius: 8px;
+        transition: all ease-in-out 800ms;
+        border: 2px solid var(--main-clear);
+      }
+      .button:hover {
+        background-color: var(--main-dark);
+        transition: all ease-in-out 800ms;
+        background-color: var(--main-dark);
+          color: white;
+          -webkit-box-shadow: 1px 0px 28px -4px var(--main-clear);
+          -moz-box-shadow: 1px 0px 28px -4px var(--main-clear);
+          box-shadow: 1px 0px 28px -4px var(--main-clear);
+      }
       .sectionOne {
-        
         .project-name {
           text-transform: uppercase;
         }
         .project-image{
           width: 52%;
         }
-        .deployLink {
-          width: 80%;
-          padding: 10px 5px;
-          background-color: var(--main-blue);
+       .details {
+          padding: 16px;
+          width: 100%;
           border-radius: 8px;
-          transition: all ease-in-out 800ms;
-
-        }
-        .deployLink:hover {
-          background-color: var(--main-dark);
-          transition: all ease-in-out 800ms;
-          background-color: var(--main-dark);
-            color: white;
-            -webkit-box-shadow: 1px 0px 28px -4px var(--main-clear);
-            -moz-box-shadow: 1px 0px 28px -4px var(--main-clear);
-            box-shadow: 1px 0px 28px -4px var(--main-clear);
-        }
+          background-color: var(--main-clear);
+          text-align: justify;
+       }
       }
       .sectionTwo {
         .textContainer {
           display: flex;
           justify-content: space-between;
-          padding: 10px;
+          padding: 16px;
           width: 100%;
           border-radius: 8px;
           background-color: var(--main-blue);
@@ -133,7 +148,7 @@
         }
         .repository {
           align-self: end;
-          padding: 10px;
+          padding: 16px;
         }
       }
     }

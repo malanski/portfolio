@@ -13,23 +13,26 @@ const ProjectCard = () => {
         <Box key={index} className="project">
 
           <Box className='sections sectionOne'>
-            <h3 className="project-name"><span>{project.id}</span><big><b>{project.name}</b></big></h3>
-
+            <h3 className="project-name">
+              <span>{project.id}</span><big><b>{project.name}</b></big>
+            </h3>
+            
             <Box className="imageSpin">
                 <img className="project-image"
                   src={project.image}
                   alt={project.imgAlt} />
             </Box>
 
-            <Box sx={{ 
+            <div className="details"
+            sx={{ 
               textAlign: 'justify',
               width: '80%',
               margin: '10px auto' }}>                
               <p>{project.details}</p>
-            </Box>
+            </div>
 
             <a href={project.deployLink}
-              className='deployLink' target="_blank" rel='noreferrer'
+              className='button' target="_blank" rel='noreferrer'
               title={`Try the ${project.name} deploy link`}>
               Click here to try yourself the {project.name} deploy.
             </a>
@@ -56,7 +59,7 @@ const ProjectCard = () => {
             <a href={project.repositoryLink}
               target="_blank" rel='noreferrer'
               title="Code and documentation at this repository"
-              className='repository'>
+              className='button'>
               <FontAwesomeIcon icon={faGithubAlt} /> Repository
             </a>
           </Box>
