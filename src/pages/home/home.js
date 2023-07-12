@@ -4,12 +4,12 @@ import './home.scss'
 export const Home = () => {
     return (
         <div className='project1'>
-            <h2>Fullstack Developer</h2>
+            <h2>Frontend Developer</h2>
 
             <p className='aboutProject1'>
                 &ensp;&ensp;&ensp;&ensp;
                 I am passionate about technology and art. My purpose is to
-                unite them by focusing on the fullstack development career, area in which I'm studying
+                unite them by focusing on the Frontend development career, area in which I'm studying
                 intensively, looking for challenges and projects to improve my technical
                 knowledge and amplify my self-learning capacity.<br/>
                 <br/>   

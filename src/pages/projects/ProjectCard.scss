@@ -77,7 +77,8 @@
       }
       .button {
         width: 80%;
-        padding: 16px 8px;
+        margin: 8px;
+        padding: 8px 16px;
         background-color: var(--main-blue);
         border-radius: 8px;
         transition: all ease-in-out 800ms;
@@ -98,9 +99,11 @@
         }
         .project-image{
           width: 52%;
+          margin: 8px;
+
         }
        .details {
-          padding: 16px;
+          padding: 8px 16px;
           width: 100%;
           border-radius: 8px;
           background-color: var(--main-clear);
@@ -154,14 +157,39 @@
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 843px) {
     .projects-grid {
-      padding: 5px;
+      padding: 0px;
+      .project {
+        // height: auto;
+        // width: 100vw;
+        .sections {
+          // height: 90vw;
+        }
+
+      }
+    }
+  }
+  @media (max-width: 812px) {
+    .projects-grid {
+      padding: 2px;
+      .project {
+        // height: auto;
+        width: 90vw;
+
+        .sections {
+        }
+
+      }
+    }
+  }
+  @media (max-width: 712px) {
+    .projects-grid {
       .project {
         height: auto;
-        width: 100vw;
+        width: 95vw;
+
         .sections {
-          height: 90vw;
         }
 
       }
@@ -169,44 +197,26 @@
   }
   @media (max-width: 650px) {
     .projects-grid {
+      
       .project {
+        width: 100%;
+        height: auto;
 
         .sections {
-          height: 110vw;
+          // height: 110vw;
         }
 
       }
     }
   }
-  @media (max-width: 550px) {
-    .projects-grid {
-      .project {
-        // padding: 0;
-        .sections {
-          height: 100vh;
-        }
 
-      }
-    }
-  }
-  @media (max-width: 550px) {
-    .projects-grid {
-      .project {
-        // padding: 0;
-        .sections {
-          height: auto;
-        }
-
-      }
-    }
-  }
   @media (max-width: 465px) {
     .projects-grid {
       .project {
         flex-direction: column;
-        width: 100%;
         .sections {
           width: 100%;
+          height: auto;
         }
       }
     }
@@ -214,9 +224,8 @@
   @media (max-width: 380px) {
     .projects-grid {
       .project {
-
         .sections {
-          
+          height: auto;
         }
         .sectionTwo {
           .tech-badges {

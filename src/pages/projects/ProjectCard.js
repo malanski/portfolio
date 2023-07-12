@@ -34,7 +34,7 @@ const ProjectCard = () => {
             <a href={project.deployLink}
               className='button' target="_blank" rel='noreferrer'
               title={`Try the ${project.name} deploy link`}>
-              Click here to try yourself the {project.name} deploy.
+              Click to try the {project.name} deploy.
             </a>
           </Box>
 
