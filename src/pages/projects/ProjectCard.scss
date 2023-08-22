@@ -48,17 +48,15 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 100vw;
     gap: 40px;
     padding: 16px 0px 24px 0px;
 
     .project{
-      height: 90vh;
       width: 80vw;
       display: flex;
-      flex-direction: row;
+      // flex-direction: row;
       justify-content: space-between;
-      align-items: center;
+      align-items: end;
       margin: 0 auto;
       border-radius: 24px;
       padding: 16px 24px;
@@ -68,7 +66,8 @@
         color: aqua;
       }
       .sections {
-        width: calc(50% - 32px);
+        width: calc(50% - 24px);
+        
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -78,7 +77,7 @@
       .button {
         width: 80%;
         margin: 8px;
-        padding: 8px 16px;
+        padding: 8px 8px;
         background-color: var(--main-blue);
         border-radius: 8px;
         transition: all ease-in-out 800ms;
@@ -98,8 +97,8 @@
           text-transform: uppercase;
         }
         .project-image{
-          width: 52%;
-          margin: 8px;
+          width: 90%;
+          margin: auto;
 
         }
        .details {
@@ -111,6 +110,9 @@
        }
       }
       .sectionTwo {
+        height: 100%;
+        // justify-content: space-evenly;
+        // display: flex;
         .textContainer {
           display: flex;
           justify-content: space-between;
@@ -187,45 +189,75 @@
     .projects-grid {
       .project {
         height: auto;
-        width: 95vw;
+        // width: 95vw;
 
         .sections {
         }
-
+        .sectionOne {
+          .project-image {
+            // width: 60%;
+          }
+        }
       }
     }
   }
   @media (max-width: 650px) {
     .projects-grid {
-      
+      gap: 16px;
+      padding: 8px 0;
+      margin: auto;
       .project {
-        width: 100%;
-        height: auto;
-
+        padding: 8px 16px;
+        margin: auto;
         .sections {
+        width: calc(50% - 16px);
+          
+        }
+        .sectionOne {
           // height: 110vw;
+          .project-name {
+            font-size: 16px;
+          }
+        }
+        .button {
+          font-size: 16px;
+        }
+        .sectionTwo {
+          .tech {
+            height: 120px;
+            span {
+              font-size: 40px;
+            }
+          }
         }
 
       }
     }
   }
 
-  @media (max-width: 465px) {
+  @media (max-width: 580px) {
     .projects-grid {
       .project {
         flex-direction: column;
         .sections {
           width: 100%;
           height: auto;
+          justify-content: center;
+        }
+        .sectionOne {
+          // height: 110vw;
+          .project-name {
+            font-size: 22px;
+          }
         }
       }
     }
   }
-  @media (max-width: 380px) {
+  @media (max-width: 420px) {
     .projects-grid {
       .project {
+        padding: 8px;
         .sections {
-          height: auto;
         }
         .sectionTwo {
           .tech-badges {

@@ -6,10 +6,10 @@ import { faCalculator, faCircleCheck, faDatabase, faGamepad, faJ, faN, faList, f
 
 const listProjects = [
   {
-    name:"Fullstack CRUD Form",
-    describe: "Client Management API",
+    name:"Client Management",
+    describe: "Fullstack CRUD form",
     skills: "ReactJs + MUI + Yup + NoSQL + Node",
-    type: "Fullstack Form",
+    type: "Fullstack CRUD form",
     repositoryLink: "https://github.com/malanski/fullstack-crud",
     deployLink: "https://fullstack-crud-malanski.vercel.app/#/",
     image: "https://github.com/malanski/images/raw/main/crudFullStack.png",
@@ -19,6 +19,22 @@ const listProjects = [
       fontOne: <img src={apiIcon} alt="API icon" className="iconBall api" width="50px" />,
       fontTwo: <FontAwesomeIcon icon={faDatabase} className="iconBall" />,
       fontThree: <FontAwesomeIcon icon={faJs} className="iconBall" />,
+    }
+  },
+  {
+    name:"Movie Info",
+    describe: "Search for Movie info from TMDB",
+    skills: "TypeScript + Next + Chakra UI",
+    type: "Search",
+    repositoryLink: "https://github.com/malanski/movie-info",
+    deployLink: "https://movie-info-malanski.vercel.app/",
+    image: "https://github.com/malanski/images/raw/main/movieinfo.jpg",
+    imgAlt: "Movie info search",
+    details: "A frontend app built with TypeScript, React, Next, and Chakra UI populated with TMDB API. The app allows users to search movies information and shows them by popularity.",
+    badgeFont: {
+      fontOne: <FontAwesomeIcon icon={faT} className="iconBall" />,
+      fontTwo: <FontAwesomeIcon icon={faCircleCheck} className="iconBall" />,
+      fontThree: <FontAwesomeIcon icon={faCss3} className="iconBall" />,
     }
   },
   {
@@ -37,22 +53,22 @@ const listProjects = [
       fontThree: <FontAwesomeIcon icon={faCss3} className="iconBall" />,
     }
   },
-  {
-    name:"Quote Generator",
-    describe: "Fetching quotes API randomly",
-    skills: "TypeScript + React + Vite + Jquery",
-    type: "Search",
-    repositoryLink: "https://quote-gen-red.vercel.app/",
-    deployLink: "https://quote-gen-red.vercel.app/",
-    image: "https://github.com/malanski/images/raw/main/Quote.png",
-    imgAlt: "Quote Generator using a remote JSON file",
-    details: "A React application that generates random quotes. Each time you click the `New quote` button, a new quote will be displayed along with the author. You can also share the quotes on Twitter or Tumblr using the provided buttons.",
-    badgeFont: {
-      fontOne: <FontAwesomeIcon icon={faJ} className="iconBall" />,
-      fontTwo: <FontAwesomeIcon icon={faReact} className="iconBall" />,
-      fontThree: <FontAwesomeIcon icon={faT} className="iconBall" />,
-    }
-  },
+  // {
+  //   name:"Quote Generator",
+  //   describe: "Fetching quotes randomly",
+  //   skills: "TypeScript + React + Vite + Jquery",
+  //   type: "Search",
+  //   repositoryLink: "https://quote-gen-red.vercel.app/",
+  //   deployLink: "https://quote-gen-red.vercel.app/",
+  //   image: "https://github.com/malanski/images/raw/main/Quote.png",
+  //   imgAlt: "Quote Generator using a remote JSON file",
+  //   details: "A React application that generates random quotes. Each time you click the `New quote` button, a new quote will be displayed along with the author. You can also share the quotes on Twitter or Tumblr using the provided buttons.",
+  //   badgeFont: {
+  //     fontOne: <FontAwesomeIcon icon={faJ} className="iconBall" />,
+  //     fontTwo: <FontAwesomeIcon icon={faReact} className="iconBall" />,
+  //     fontThree: <FontAwesomeIcon icon={faT} className="iconBall" />,
+  //   }
+  // },
   {
     name:"Memory Game",
     describe: "Album covers based memory game",
@@ -87,7 +103,7 @@ const listProjects = [
   },
   {
     name:"Weather Weekly",
-    describe: "Consuming Weather API",
+    describe: "Shows the local weather of the week",
     skills: "JavaScript + HTML + CSS",
     type: "Search",
     repositoryLink: "https://github.com/malanski/weather-weekly",
@@ -132,46 +148,46 @@ const listProjects = [
       fontThree: <FontAwesomeIcon icon={faCss3} className="iconBall" />,
     }
   },
-  {
-    name:"Spotify Playlists",
-    describe: "Consuming the Spotify Playlist API",
-    skills: "JavaScript + HTML + CSS",
-    type: "Search",
-    repositoryLink: "https://github.com/malanski/spotify-client",
-    deployLink: "https://malanski.github.io/spotify-client/",
-    image: "https://github.com/malanski/images/raw/main/spotify-client.png",
-    imgAlt: "Web app consuming API layout",
-    details: "This is a simple app that utilizes the Spotify API to fetch and display information about music genres, playlists, and tracks. The app is built using JavaScript and does not require any server-side code as it directly interacts with the Spotify API.",
-    badgeFont: {
-      fontOne: <img src={apiIcon} alt="API icon" className="iconBall api" width="50px" />,
-      fontTwo: <FontAwesomeIcon icon={faCss3} className="iconBall" />,
-      fontThree: <FontAwesomeIcon icon={faJs} className="iconBall" />,
-      // fontFour: <FontAwesomeIcon icon={faHtml5} className="iconBall" />,
-    }
-  },
-  {
-    name:"Meteorites on Earth",
-    describe: "Nasa registry about meteorites that fell to earth",
-    skills: "JavaScript + HTML + CSS",
-    type: "Search",
-    repositoryLink: "https://codepen.io/malanski/pen/xxYGmYY",
-    deployLink: "https://codepen.io/malanski/full/xxYGmYY",
-    image: "https://github.com/malanski/images/raw/main/Meteor.png",
-    imgAlt: "Web app of meteorites that fell to earth",
-    details: " ",
-    badgeFont: {
-      fontOne: <FontAwesomeIcon icon={faHtml5} className="iconBall" />,
-      fontTwo: <FontAwesomeIcon icon={faJs} className="iconBall" />,
-      fontThree: <FontAwesomeIcon icon={faCss3} className="iconBall" />,
-    }
-  },
+  // {
+  //   name:"Spotify Playlists",
+  //   describe: "Consuming the Spotify Playlist API",
+  //   skills: "JavaScript + HTML + CSS",
+  //   type: "Search",
+  //   repositoryLink: "https://github.com/malanski/spotify-client",
+  //   deployLink: "https://malanski.github.io/spotify-client/",
+  //   image: "https://github.com/malanski/images/raw/main/spotify-client.png",
+  //   imgAlt: "Web app consuming API layout",
+  //   details: "This is a simple app that utilizes the Spotify API to fetch and display information about music genres, playlists, and tracks. The app is built using JavaScript and does not require any server-side code as it directly interacts with the Spotify API.",
+  //   badgeFont: {
+  //     fontOne: <img src={apiIcon} alt="API icon" className="iconBall api" width="50px" />,
+  //     fontTwo: <FontAwesomeIcon icon={faCss3} className="iconBall" />,
+  //     fontThree: <FontAwesomeIcon icon={faJs} className="iconBall" />,
+  //     // fontFour: <FontAwesomeIcon icon={faHtml5} className="iconBall" />,
+  //   }
+  // },
+  // {
+  //   name:"Meteorites on Earth",
+  //   describe: "Fetching data over a world map",
+  //   skills: "JavaScript + HTML + CSS",
+  //   type: "Search",
+  //   repositoryLink: "https://codepen.io/malanski/pen/xxYGmYY",
+  //   deployLink: "https://codepen.io/malanski/full/xxYGmYY",
+  //   image: "https://github.com/malanski/images/raw/main/Meteor.png",
+  //   imgAlt: "Web app of meteorites that fell to earth",
+  //   details: "This project is a web page shows Nasa registry about meteorites that fell to earth.",
+  //     badgeFont: {
+  //     fontOne: <FontAwesomeIcon icon={faHtml5} className="iconBall" />,
+  //     fontTwo: <FontAwesomeIcon icon={faJs} className="iconBall" />,
+  //     fontThree: <FontAwesomeIcon icon={faCss3} className="iconBall" />,
+  //   }
+  // },
   {
     name:"Stopwatch",
     describe: "Js Stopwatch",
     skills: "ReactJs + Sass",
     type: "Clock",
     repositoryLink: "https://github.com/malanski/cron",
-    deployLink: "https://node-example-uli.herokuapp.com/",
+    deployLink: "https://malanski.github.io/cron/",
     image: "https://github.com/malanski/images/raw/main/CronReactJS.png",
     imgAlt: "Stopwatch web app",
     details: "This project is a part of the Web Development Course at Awari School. The objective of this project is to create a JavaScript chronometer using React, with additional styling and icons from Font Awesome. The chronometer counts seconds, minutes, and hours as long as the page stays open, without consuming background processing.",
@@ -198,7 +214,7 @@ const listProjects = [
   },
   {
     name:"PokeCardGameBoy Store",
-    describe: "Consuming the pokapi - Pokémon API",
+    describe: "Consuming the pokeapi - Pokémon API",
     skills: "JavaScript + HTML + CSS",
     type: "E-commerce",
     repositoryLink: "https://github.com/malanski/pokeLoja2",
@@ -221,6 +237,7 @@ const listProjects = [
     deployLink: "https://codepen.io/malanski/full/qBxOVvq",
     image: "https://github.com/malanski/images/raw/main/XGame.png",
     imgAlt: "Web tic-tac-toe app game",
+    details: "This project is a Tic-tac-toe game developed with javascript, HTML, and CSS. It can to be played on any web browser.",
     badgeFont: {
       fontOne: <FontAwesomeIcon icon={faGamepad} className="iconBall" />,
       fontTwo: <FontAwesomeIcon icon={faHtml5} className="iconBall" />,
@@ -229,7 +246,7 @@ const listProjects = [
   },
   {
     name:"Calculator",
-    describe: "Basic JS Operators an functions",
+    describe: "Calculator app",
     skills: "JavaScript + HTML + CSS",
     type: "Calculator",
     repositoryLink: "https://github.com/malanski/CalculatorX",
@@ -243,37 +260,38 @@ const listProjects = [
       fontThree: <FontAwesomeIcon icon={faJs} className="iconBall" />,
     }
   },
-  {
-    name:"SPC styled Tribute Page",
-    describe: "Basic HTML clean coding",
-    skills: "HTML + CSS",
-    type: "Tribute Page",
-    repositoryLink: "https://codepen.io/malanski/pen/qBxEVMP",
-    deployLink: "https://codepen.io/malanski/full/qBxEVMP",
-    image: "https://github.com/malanski/images/raw/main/TributePage.png",
-    imgAlt: "Beakman's SPC styled Tribute Page",
-    badgeFont: {
-      fontOne: <FontAwesomeIcon icon={faPerson} className="iconBall" />,
-      fontTwo: <FontAwesomeIcon icon={faHtml5} className="iconBall" />,
-      fontThree: <FontAwesomeIcon icon={faCss3Alt} className="iconBall" />,
-    }
-  },
-  {
-    name:"A Complete HTML Form",
-    describe: "Form elements and HTML clean coding",
-    skills: "HTML + CSS",
-    type: "Frontend Form",
-    repositoryLink: "https://github.com/malanski/courses-rank",
-    deployLink: "https://malanski.github.io/courses-rank/",
-    image: "https://github.com/malanski/images/raw/main/CoursesRank.png",
-    imgAlt: "Beakman's SPC styled Tribute Page",
-    details: "This is a ReactJs Application to rate Online courses. A place for costumers/students evaluate their Institutions/Schools.",
-    badgeFont: {
-      fontOne: <FontAwesomeIcon icon={faList} className="iconBall" />,
-      fontTwo: <FontAwesomeIcon icon={faHtml5} className="iconBall" />,
-      fontThree: <FontAwesomeIcon icon={faCss3Alt} className="iconBall" />,
-    }
-  },
+  // {
+  //   name:"Tribute Page",
+  //   describe: "Basic HTML clean coding",
+  //   skills: "HTML + CSS",
+  //   type: "Tribute Page",
+  //   repositoryLink: "https://codepen.io/malanski/pen/qBxEVMP",
+  //   deployLink: "https://codepen.io/malanski/full/qBxEVMP",
+  //   image: "https://github.com/malanski/images/raw/main/TributePage.png",
+  //   imgAlt: "Beakman's Tribute Page",
+  //   details: "A HTML and CSS tribute page",
+  //   badgeFont: {
+  //     fontOne: <FontAwesomeIcon icon={faPerson} className="iconBall" />,
+  //     fontTwo: <FontAwesomeIcon icon={faHtml5} className="iconBall" />,
+  //     fontThree: <FontAwesomeIcon icon={faCss3Alt} className="iconBall" />,
+  //   }
+  // },
+  // {
+  //   name:"Complete HTML Form",
+  //   describe: "Form elements and HTML clean coding",
+  //   skills: "HTML + CSS",
+  //   type: "Frontend Form",
+  //   repositoryLink: "https://github.com/malanski/courses-rank",
+  //   deployLink: "https://malanski.github.io/courses-rank/",
+  //   image: "https://github.com/malanski/images/raw/main/CoursesRank.png",
+  //   imgAlt: "Web form print screen",
+  //   details: "This is a ReactJs Application to rate Online courses. A place for costumers/students evaluate their Institutions/Schools.",
+  //   badgeFont: {
+  //     fontOne: <FontAwesomeIcon icon={faList} className="iconBall" />,
+  //     fontTwo: <FontAwesomeIcon icon={faHtml5} className="iconBall" />,
+  //     fontThree: <FontAwesomeIcon icon={faCss3Alt} className="iconBall" />,
+  //   }
+  // },
 
 ];
 export default listProjects;

@@ -24,7 +24,7 @@ a {
 
 .night-mode-btn {
   align-self: flex-end;
-  width: 160px;
+  width: 180px;
   margin: 10px 10px;
   border-radius: 10px;
   text-transform: uppercase;
@@ -38,4 +38,12 @@ a {
     justify-content: space-between;
   }
   
+}
+
+@media (max-width: 500px) {
+  header {
+    .site-title a {
+      font-size: 22px;
+    }
+  }
 }

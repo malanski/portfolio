@@ -16,36 +16,25 @@ const ProjectCard = () => {
             <h3 className="project-name">
               <span>{project.id}</span><big><b>{project.name}</b></big>
             </h3>
-            
+
             <Box className="imageSpin">
-                <img className="project-image"
-                  src={project.image}
-                  alt={project.imgAlt} />
+              <img className="project-image"
+                src={project.image}
+                alt={project.imgAlt} />
             </Box>
 
-            <div className="details"
-            sx={{ 
-              textAlign: 'justify',
-              width: '80%',
-              margin: '10px auto' }}>                
+            <div className="details">
               <p>{project.details}</p>
             </div>
 
             <a href={project.deployLink}
               className='button' target="_blank" rel='noreferrer'
               title={`Try the ${project.name} deploy link`}>
-              Click to try the {project.name} deploy.
+              {project.name} deploy.
             </a>
           </Box>
 
-          <Box className='sections sectionTwo'>
-            <p className='projectType textContainer' title='Project Type'>
-              <span>Type:</span> {project.type}
-            </p>
-
-            <p className='describe textContainer' title='Project description'>
-              <span>Functionalities:</span> {project.describe}
-            </p>
+          <div className='sections sectionTwo'>
 
             <div className='tech'>
               <p title='Project Requirements'>{project.skills}</p>
@@ -56,13 +45,23 @@ const ProjectCard = () => {
               </Box>
             </div>
 
+            <p className='projectType textContainer' title='Project Type'>
+              <span>Type:</span> {project.type}
+            </p>
+
+            <p className='describe textContainer' title='Project description'>
+              <span>Features:</span> {project.describe}
+            </p>
+
+
+
             <a href={project.repositoryLink}
               target="_blank" rel='noreferrer'
               title="Code and documentation at this repository"
               className='button'>
               <FontAwesomeIcon icon={faGithubAlt} /> Repository
             </a>
-          </Box>
+          </div>
 
         </Box>
       ))}
