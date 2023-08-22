@@ -17,15 +17,18 @@ const ProjectCard = () => {
               <span>{project.id}</span><big><b>{project.name}</b></big>
             </h3>
 
+            <p className='describe textContainer' title='Project description'>
+              <span>Features:</span>
+              <span>{project.describe}</span>
+            </p>
+
             <Box className="imageSpin">
               <img className="project-image"
                 src={project.image}
                 alt={project.imgAlt} />
             </Box>
 
-            <div className="details">
-              <p>{project.details}</p>
-            </div>
+            
 
             <a href={project.deployLink}
               className='button' target="_blank" rel='noreferrer'
@@ -36,6 +39,12 @@ const ProjectCard = () => {
 
           <div className='sections sectionTwo'>
 
+
+
+            <h3 className='projectType textContainer' title='Project Type'>
+              <span>Type:</span> {project.type}
+            </h3>
+
             <div className='tech'>
               <p title='Project Requirements'>{project.skills}</p>
               <Box className='tech-badges'>
@@ -45,15 +54,10 @@ const ProjectCard = () => {
               </Box>
             </div>
 
-            <p className='projectType textContainer' title='Project Type'>
-              <span>Type:</span> {project.type}
-            </p>
-
-            <p className='describe textContainer' title='Project description'>
-              <span>Features:</span> {project.describe}
-            </p>
-
-
+            <div className="details">
+              <p>{project.details}</p>
+            </div>
+            
 
             <a href={project.repositoryLink}
               target="_blank" rel='noreferrer'

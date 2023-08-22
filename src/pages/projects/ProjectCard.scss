@@ -17,28 +17,30 @@
           box-shadow: 1px 0px 12px -4px var(--main-clear);
       }
       .sectionOne {
+        .describe {
+          background-color: var(--main-dark);
+        }
         .deployLink {
           background-color: var(--main-dark);
           -webkit-box-shadow: 1px 0px 12px -4px var(--main-clear);
             -moz-box-shadow: 1px 0px 12px -4px var(--main-clear);
             box-shadow: 1px 0px 12px -4px var(--main-clear);
         }
-        .details {
-          background-color: var(--main-grayL);
-        }
+        
       }
       .sectionTwo {
         .projectType {
           background-color: var(--main-dark);
         }
-        .describe {
-          background-color: var(--main-dark);
-        }
+
         .tech {
           background-color: var(--main-dark);
           .api {
             filter:invert(1) ;
           }
+        }
+        .details {
+          background-color: var(--main-grayL);
         }
       }
     }
@@ -92,47 +94,52 @@
           -moz-box-shadow: 1px 0px 28px -4px var(--main-clear);
           box-shadow: 1px 0px 28px -4px var(--main-clear);
       }
+      .textContainer {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 8px;
+        width: 100%;
+        border-radius: 8px;
+        background-color: var(--main-blue);
+        font-weight: bold;
+
+      }
       .sectionOne {
         .project-name {
           text-transform: uppercase;
         }
+        .describe {
+          font-size: 16px;
+          min-height: 100px;
+          span {
+            margin: auto 8px;
+            // width: 100%;
+          }
+        }
+        
         .project-image{
-          width: 90%;
+          // width: 80%;
+          width: 290px;
           margin: auto;
+          height: 350px;;
 
         }
-       .details {
-          padding: 8px 16px;
-          width: 100%;
-          border-radius: 8px;
-          background-color: var(--main-clear);
-          text-align: justify;
-       }
+       
       }
       .sectionTwo {
         height: 100%;
         // justify-content: space-evenly;
         // display: flex;
-        .textContainer {
-          display: flex;
-          justify-content: space-between;
-          padding: 16px;
-          width: 100%;
-          border-radius: 8px;
-          background-color: var(--main-blue);
-          font-weight: bold;
+      
 
-        }
         .projectType {
           text-transform: uppercase;
         }
-        .describe {
-          font-size: 13px;
-        }
+
         .tech {
           width: 100%;
-          height: 180px;
-          padding: 0 5px;
+          min-height: 160px;
+          padding: 0 4px;
           background-color: var(--main-blue);
           border-radius: 8px;
           display: flex;
@@ -143,6 +150,7 @@
         .tech-badges {
           display: flex;
           justify-content: space-around;
+          // height: 100%;
           
           span {
             width: 50px;
@@ -151,6 +159,19 @@
           }
 
         }
+        .details {
+          margin: 16px auto;
+          padding: 8px 16px;
+          width: 100%;
+          min-height: 240px;
+          border-radius: 8px;
+          background-color: var(--main-clear);
+          text-align: justify;
+          display: flex;
+          p {
+            margin: auto 0;
+          }
+       }
         .repository {
           align-self: end;
           padding: 16px;
@@ -185,17 +206,23 @@
       }
     }
   }
-  @media (max-width: 712px) {
+  @media (max-width: 720px) {
     .projects-grid {
       .project {
-        height: auto;
-        // width: 95vw;
 
         .sections {
+          .describe {
+            // padding: 0 5%;
+            // height: auto;
+          }
+        }
+        .textContainer {
+          font-size: 16px;
         }
         .sectionOne {
           .project-image {
-            // width: 60%;
+            width: 240px;
+            height: 290px;
           }
         }
       }
@@ -218,6 +245,8 @@
           .project-name {
             font-size: 16px;
           }
+          
+
         }
         .button {
           font-size: 16px;
@@ -248,6 +277,10 @@
           // height: 110vw;
           .project-name {
             font-size: 22px;
+          }
+          .project-image {
+            width: 290px;
+            height: 350px;
           }
         }
       }
