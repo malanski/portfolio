@@ -14,7 +14,7 @@ const listProjects = [
     deployLink: "https://fullstack-crud-malanski.vercel.app/#/",
     image: "https://github.com/malanski/images/raw/main/crudFullStack.png",
     imgAlt: "A web page print screen for a form",
-    details: "A full-stack project that uses the Express framework and Node.js to construct a Client Management API. Using the API, users can create, read, update, and delete client records that are kept in a MongoDB database.",
+    details: "a full-stack project that uses the Express framework and Node.js to construct a Client Management API. Using the API, users can create, read, update, and delete client records that are kept in a MongoDB database.",
     badgeFont: {
       fontOne: <img src={apiIcon} alt="API icon" className="iconBall api" width="50px" />,
       fontTwo: <FontAwesomeIcon icon={faDatabase} className="iconBall" />,
@@ -30,7 +30,7 @@ const listProjects = [
     deployLink: "https://movie-info-malanski.vercel.app/",
     image: "https://github.com/malanski/images/raw/main/movieinfo.jpg",
     imgAlt: "Movie info search",
-    details: "A frontend app built with TypeScript, React, Next, and Chakra UI populated with TMDB API. The app allows users to search movies information and shows them by popularity.",
+    details: "a frontend app built with TypeScript, React, Next, and Chakra UI populated with TMDB API. The app allows users to search movies information and shows them by popularity.",
     badgeFont: {
       fontOne: <FontAwesomeIcon icon={faT} className="iconBall" />,
       fontTwo: <FontAwesomeIcon icon={faCircleCheck} className="iconBall" />,
@@ -46,7 +46,7 @@ const listProjects = [
     deployLink: "https://vite-project-one-malanski.vercel.app/",
     image: "https://github.com/malanski/images/raw/main/todoTask.png",
     imgAlt: "A task Organize",
-    details: "A frontend application for a straightforward to-do list created with TypeScript, Vite, React, and CSS. Users can create TODO lists and register tasks on the app to keep organized and productive.",
+    details: "a frontend application for a straightforward to-do list created with TypeScript, Vite, React, and CSS. Users can create TODO lists and register tasks on the app to keep organized and productive.",
     badgeFont: {
       fontOne: <FontAwesomeIcon icon={faT} className="iconBall" />,
       fontTwo: <FontAwesomeIcon icon={faCircleCheck} className="iconBall" />,
@@ -78,7 +78,7 @@ const listProjects = [
     deployLink: "https://malanski.github.io/memory-game/",
     image: "https://github.com/malanski/images/raw/main/memory-game.png",
     imgAlt: "A memory game javascript app",
-    details: "Matching pairs of cards with the same images is required in this JavaScript-based memory game. The number of moves (tentativas) made by the player is recorded by the game, and various messages are shown to them depending on how well they perform. When all pairings are correctly matched, the game is over.",
+    details: "an app where matching pairs of cards with the same images is required in this JavaScript-based memory game. The number of moves (tentativas) made by the player is recorded by the game, and various messages are shown to them depending on how well they perform. When all pairings are correctly matched, the game is over.",
     badgeFont: {
       fontOne: <FontAwesomeIcon icon={faGamepad} className="iconBall" />,
       fontTwo: <FontAwesomeIcon icon={faJs} className="iconBall" />,
@@ -94,7 +94,7 @@ const listProjects = [
     deployLink: "https://poke-store-next.vercel.app/",
     image: "https://github.com/malanski/images/raw/main/pokeStoreNext.png",
     imgAlt: "Pokémon API based Web store print screen",
-    details: "An e-commerce web store built using ReactJS, NextJS, SASS, SWR, Chakra UI, FontAwesome, Node, JavaScript.",
+    details: "an e-commerce web store built using ReactJS, NextJS, SASS, SWR, Chakra UI, FontAwesome, Node, JavaScript.",
     badgeFont: {
       fontOne: <FontAwesomeIcon icon={faN} className="iconBall" />,
       fontTwo: <FontAwesomeIcon icon={faReact} className="iconBall" />,
@@ -110,7 +110,7 @@ const listProjects = [
     deployLink: "https://malanski.github.io/weather-weekly/",
     image: "https://github.com/malanski/images/raw/main/weather-weekly.png",
     imgAlt: "Web app consuming weather API",
-    details: "A website that makes use of the OpenWeatherMap API to retrieve weather information according to the user's location. The app shows daily weather forecasts for the user's current location, along with details like the day of the week, a description of the weather, a symbol to represent it, sunrise and sunset times, high and low temperatures, humidity levels, wind speed, and wind gusts.",
+    details: "a website that makes use of the OpenWeatherMap API to retrieve weather information according to the user's location. The app shows daily weather forecasts for the user's current location, along with details like the day of the week, a description of the weather, a symbol to represent it, sunrise and sunset times, high and low temperatures, humidity levels, wind speed, and wind gusts.",
     badgeFont: {
       fontOne: <img src={apiIcon} alt="API icon" className="iconBall api" width="50px" />,
       fontTwo: <FontAwesomeIcon icon={faReact} className="iconBall" />,
@@ -126,7 +126,7 @@ const listProjects = [
     deployLink: "https://malanski.github.io/sintaxe-e-operadores/",
     image: "https://github.com/malanski/images/raw/main/starwars1.png",
     imgAlt: "Web app consuming Star Wars characters list API",
-    details: "Using the Star Wars API (SWAPI), this straightforward web application pulls a random character from the Star Wars universe. For a better user experience, the app lets users switch between light and dark settings.",
+    details: "an app using the Star Wars API (SWAPI), this straightforward web application pulls a random character from the Star Wars universe. For a better user experience, the app lets users switch between light and dark settings.",
     badgeFont: {
       fontOne: <img src={apiIcon} alt="API icon" className="iconBall api" width="50px" />,
       fontTwo: <FontAwesomeIcon icon={faReact} className="iconBall" />,
@@ -135,14 +135,14 @@ const listProjects = [
   },
   {
     name:"Color Guessing Game",
-    describe: "Game based on RGB code numbers",
+    describe: "a game based on guessing colors RGB code",
     skills: "JavaScript + HTML + CSS",
     type: "Game",
     repositoryLink: "https://github.com/malanski/GessingColorGame",
     deployLink: "https://malanski.github.io/GessingColorGame/",
     image: "https://github.com/malanski/images/raw/main/color-guessing.png",
     imgAlt: "Web game RGB code numbers guessing",
-    details: "This game is based on R.G.B. color codes. You have to decide what color is appropriate.When you get it correctly, every block reveals its color, and you have to start again to play again.",
+    details: "based on R.G.B. color codes. You have to decide what color is appropriate.When you get it correctly, every block reveals its color, and you have to start again to play again.",
       badgeFont: {
       fontOne: <FontAwesomeIcon icon={faGamepad} className="iconBall" />,
       fontTwo: <FontAwesomeIcon icon={faJs} className="iconBall" />,
@@ -184,14 +184,14 @@ const listProjects = [
   // },
   {
     name:"Stopwatch",
-    describe: "Js Stopwatch",
+    describe: "A chronometer build using JavaScript and React",
     skills: "ReactJs + Sass",
     type: "Clock",
     repositoryLink: "https://github.com/malanski/cron",
     deployLink: "https://malanski.github.io/cron/",
     image: "https://github.com/malanski/images/raw/main/CronReactJS.png",
     imgAlt: "Stopwatch web app",
-    details: "The Web Development Course at Awari School includes this assignment. The goal of this project is to build a React-based JavaScript clock with additional aesthetics and Font Awesome icons. As long as the page is active, the chronograph keeps track of seconds, minutes, and hours without using background processing.",
+    details: "a chronometer and the goal of this project was to build a React-based JavaScript clock with additional aesthetics and Font Awesome icons. As long as the page is active, the chronograph keeps track of seconds, minutes, and hours without using background processing.",
     badgeFont: {
       fontOne: <FontAwesomeIcon icon={faReact} className="iconBall" />,
       fontTwo: <FontAwesomeIcon icon={faJs} className="iconBall" />,
@@ -215,14 +215,14 @@ const listProjects = [
   // },
   {
     name:"PokeCardGameBoy Store",
-    describe: "Consuming the pokeapi - Pokémon API",
+    describe: "An ecommerce web page populated with pokemon data from the pokeApi",
     skills: "JavaScript + HTML + CSS",
     type: "E-commerce",
     repositoryLink: "https://github.com/malanski/pokeLoja2",
     deployLink: "https://malanski.github.io/pokeLoja2/",
     image: "https://github.com/malanski/images/raw/main/pokestore1.png",
     imgAlt: "Pokémon card game styled web store",
-    details: "Making a responsive Ecommerce website with HTML, CSS, SASS, JavaScript, and API is one of my first application projects. Henrique Marques is the mentor for the project. To display the most pertinent images discovered by the API, I made the decision to draw influence from the Pokémon card game.",
+    details: "a responsive Ecommerce website with HTML, CSS, SASS, JavaScript, and API is one of my first application projects. Henrique Marques is the mentor for the project. To display the most pertinent images discovered by the API, I made the decision to draw influence from the Pokémon card game.",
     badgeFont: {
       fontOne: <img src={apiIcon} alt="API icon" className="iconBall api" width="50px" />,
       fontTwo: <FontAwesomeIcon icon={faHtml5} className="iconBall" />,
@@ -238,7 +238,7 @@ const listProjects = [
     deployLink: "https://codepen.io/malanski/full/qBxOVvq",
     image: "https://github.com/malanski/images/raw/main/XGame.png",
     imgAlt: "Web tic-tac-toe app game",
-    details: "This project is a Tic-tac-toe game developed with javascript, HTML, and CSS. It can to be played on any web browser.",
+    details: "a project developed with javascript, HTML, and CSS. It can to be played on any web browser.",
     badgeFont: {
       fontOne: <FontAwesomeIcon icon={faGamepad} className="iconBall" />,
       fontTwo: <FontAwesomeIcon icon={faHtml5} className="iconBall" />,
@@ -254,7 +254,7 @@ const listProjects = [
     deployLink: "https://malanski.github.io/CalculatorX/",
     image: "https://github.com/malanski/images/raw/main/calculator.png",
     imgAlt: "Web calculator app layout",
-    details: "A responsive web application called CalculatorX was created using HTML, CSS (SASS), and JavaScript. The project's goal is to develop a basic arithmetic calculator that can be used online. Users can enter numbers and carry out mathematical operations including addition, subtraction, multiplication, and division.",
+    details: "a responsive web application called CalculatorX was created using HTML, CSS (SASS), and JavaScript. The project's goal is to develop a basic arithmetic calculator that can be used online. Users can enter numbers and carry out mathematical operations including addition, subtraction, multiplication, and division.",
     badgeFont: {
       fontOne: <FontAwesomeIcon icon={faCalculator} className="iconBall" />,
       fontTwo: <FontAwesomeIcon icon={faHtml5} className="iconBall" />,

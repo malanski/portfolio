@@ -55,7 +55,7 @@ const ProjectCard = () => {
             </div>
 
             <div className="details">
-              <p>{project.details}</p>
+              <p>{project.name} is {project.details}</p>
             </div>
             
 
