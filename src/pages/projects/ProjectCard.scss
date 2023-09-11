@@ -55,8 +55,8 @@
 
     .project{
       width: 80vw;
+      height: 80vh;
       display: flex;
-      // flex-direction: row;
       justify-content: space-between;
       align-items: end;
       margin: 0 auto;
@@ -69,7 +69,6 @@
       }
       .sections {
         width: calc(50% - 24px);
-        
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -77,13 +76,16 @@
         align-items: center;
       }
       .button {
-        width: 80%;
+        width: 100%;
         margin: 8px;
         padding: 8px 8px;
         background-color: var(--main-blue);
         border-radius: 8px;
         transition: all ease-in-out 800ms;
         border: 2px solid var(--main-clear);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
       .button:hover {
         background-color: var(--main-dark);
@@ -112,61 +114,50 @@
           font-size: 16px;
           span {
             margin: auto 8px;
-            // width: 100%;
           }
         }
-        
         .project-image{
-          // width: 80%;
-          width: 290px;
+          max-width: 320px;
           margin: auto;
-          height: 330px;;
-
+          height: auto;
         }
-       
       }
       .sectionTwo {
-        height: 100%;
-        // justify-content: space-evenly;
-        // display: flex;
-      
-
         .projectType {
           text-transform: uppercase;
           span {
             margin: auto 8px;
-            // width: 100%;
           }
         }
-
         .tech {
-          width: 100%;
-          min-height: 160px;
-          padding: 0 4px;
+
+          padding: 0 0 24px 0;
           background-color: var(--main-blue);
           border-radius: 8px;
           display: flex;
           flex-direction: column;
-          justify-content: center;
-
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+          // max-height: 100%;
+          // min-height: 160px;
         }
         .tech-badges {
           display: flex;
           justify-content: space-around;
-          // height: 100%;
-          
+          width: 100%;
+
           span {
             width: 50px;
             height: 50px;
             font-size: 50px;
           }
-
         }
         .details {
           margin: 16px auto;
-          padding: 8px 16px;
+          padding: 16px 16px;
           width: 100%;
-          min-height: 240px;
+          // min-height: 240px;
           border-radius: 8px;
           background-color: var(--main-clear);
           text-align: justify;
@@ -183,16 +174,17 @@
     }
   }
 
-  @media (max-width: 843px) {
+  @media (max-width: 900px) {
     .projects-grid {
       padding: 0px;
       .project {
-        // height: auto;
-        // width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 95vw;
         .sections {
-          // height: 90vw;
+          width: 90vw;
         }
-
       }
     }
   }
@@ -200,33 +192,17 @@
     .projects-grid {
       padding: 2px;
       .project {
-        // height: auto;
         width: 90vw;
-
-        .sections {
-        }
-
       }
     }
   }
   @media (max-width: 720px) {
     .projects-grid {
+
       .project {
 
-        .sections {
-          .describe {
-            // padding: 0 5%;
-            // height: auto;
-          }
-        }
         .textContainer {
           font-size: 16px;
-        }
-        .sectionOne {
-          .project-image {
-            width: 240px;
-            height: 290px;
-          }
         }
       }
     }
@@ -239,30 +215,22 @@
       .project {
         padding: 8px 16px;
         margin: auto;
-        .sections {
-        width: calc(50% - 16px);
-          
-        }
         .sectionOne {
-          // height: 110vw;
           .project-name {
             font-size: 16px;
           }
-          
-
         }
         .button {
           font-size: 16px;
         }
         .sectionTwo {
           .tech {
-            height: 120px;
+            // height: 120px;
             span {
               font-size: 40px;
             }
           }
         }
-
       }
     }
   }
@@ -270,30 +238,46 @@
   @media (max-width: 580px) {
     .projects-grid {
       .project {
-        flex-direction: column;
         .sections {
           width: 100%;
           height: auto;
           justify-content: center;
-        }
+          }
         .sectionOne {
-          // height: 110vw;
           .project-name {
             font-size: 22px;
-          }
-          .project-image {
-            width: 290px;
-            height: 350px;
           }
         }
       }
     }
   }
-  @media (max-width: 420px) {
+  @media (max-width: 460px) {
     .projects-grid {
       .project {
         padding: 8px;
-        .sections {
+        border-radius: 10px;
+        .sectionTwo {
+          .tech-badges {
+            span {
+              width: 30px;
+              height: 30px;
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 376px) {
+    .projects-grid {
+      gap: 16px;
+      .project {
+        width: 97vw;
+        padding: 4px;
+        .sectionOne {
+          .project-image {
+            max-width: 250px;
+          }
         }
         .sectionTwo {
           .tech-badges {

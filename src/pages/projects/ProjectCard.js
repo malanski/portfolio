@@ -4,6 +4,7 @@ import { faGithubAlt } from '@fortawesome/free-brands-svg-icons';
 import { Box } from '@mui/material';
 import React from 'react';
 import './ProjectCard.scss';
+import { faEye } from '@fortawesome/free-solid-svg-icons';
 
 const ProjectCard = () => {
   return (
@@ -12,7 +13,7 @@ const ProjectCard = () => {
 
         <Box key={index} className="project">
 
-          <Box className='sections sectionOne'>
+          <div className='sections sectionOne'>
             <h3 className="project-name">
               <span>{project.id}</span><big><b>{project.name}</b></big>
             </h3>
@@ -22,20 +23,18 @@ const ProjectCard = () => {
               <span>{project.describe}</span>
             </p>
 
-            <Box className="imageSpin">
-              <img className="project-image"
-                src={project.image}
-                alt={project.imgAlt} />
-            </Box>
-
-            
+            <img className="project-image"
+              src={project.image}
+              alt={project.imgAlt}
+            />            
 
             <a href={project.deployLink}
               className='button' target="_blank" rel='noreferrer'
               title={`Try the ${project.name} deploy link`}>
-              {project.name} deploy.
+              <FontAwesomeIcon icon={faEye} />
+              <span> {project.name} deploy</span>
             </a>
-          </Box>
+          </div>
 
           <div className='sections sectionTwo'>
 
@@ -47,15 +46,15 @@ const ProjectCard = () => {
 
             <div className='tech'>
               <p title='Project Requirements'>{project.skills}</p>
-              <Box className='tech-badges'>
+              <div className='tech-badges'>
                 {Object.keys(project.badgeFont).map((font, index) => (
                   <span key={index}>{project.badgeFont[font]}</span>
                 ))}
-              </Box>
+              </div>
             </div>
 
             <div className="details">
-              <p>{project.name} is {project.details}</p>
+              <p>&ensp;&ensp;&ensp;&ensp; {project.name} is {project.details}</p>
             </div>
             
 

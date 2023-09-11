@@ -1,8 +1,8 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import apiIcon from '../../../src/assets/APIlogo.png';
-import { faCss3, faCss3Alt, faHtml5, faJs, faReact, faSass, faWikipediaW } from '@fortawesome/free-brands-svg-icons';
-import { faCalculator, faCircleCheck, faDatabase, faGamepad, faJ, faN, faList, faPerson, faSearch, faT } from '@fortawesome/free-solid-svg-icons';
+import { faCss3, faHtml5, faJs, faReact, faSass } from '@fortawesome/free-brands-svg-icons';
+import { faCalculator, faCircleCheck, faDatabase, faGamepad, faN, faT } from '@fortawesome/free-solid-svg-icons';
 
 const listProjects = [
   {
@@ -31,6 +31,22 @@ const listProjects = [
     image: "https://github.com/malanski/images/raw/main/movieinfo.jpg",
     imgAlt: "Movie info search",
     details: "a frontend app built with TypeScript, React, Next, and Chakra UI populated with TMDB API. The app allows users to search movies information and shows them by popularity.",
+    badgeFont: {
+      fontOne: <FontAwesomeIcon icon={faT} className="iconBall" />,
+      fontTwo: <FontAwesomeIcon icon={faCircleCheck} className="iconBall" />,
+      fontThree: <FontAwesomeIcon icon={faCss3} className="iconBall" />,
+    }
+  },
+  {
+    name:"Malanski Art Store",
+    describe: "E-commerce based my On-demand web store",
+    skills: "TypeScript + Vite + React + Styled-Components",
+    type: "E-commerce",
+    repositoryLink: "https://github.com/malanski/malanski-art-store",
+    deployLink: "https://malanski-art-store-malanski.vercel.app/",
+    image: "https://github.com/malanski/images/raw/main/malanskiArtStore.png",
+    imgAlt: "Malanski Art Store app screenshot",
+    details: "build with Typescript, React, Vite and Styled-Components. Users can access selected product and buy them at Colab 55, a on-demand platform.",
     badgeFont: {
       fontOne: <FontAwesomeIcon icon={faT} className="iconBall" />,
       fontTwo: <FontAwesomeIcon icon={faCircleCheck} className="iconBall" />,
