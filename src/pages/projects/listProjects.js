@@ -22,6 +22,22 @@ const listProjects = [
     }
   },
   {
+    name:"Coffee Delivery",
+    describe: "An E-commerce app for delivering coffee.",
+    skills: "TypeScript + React + Styled-components",
+    type: "E-commerce",
+    repositoryLink: "https://github.com/malanski/coffee-delivery",
+    deployLink: "https://coffee-delivery-malanski.vercel.app/",
+    image: "https://github.com/malanski/images/raw/main/coffee-delivery.png",
+    imgAlt: "Coffee delivery app print screen",
+    details: "a frontend e-commerce app built with TypeScript, React, and styled-components, has purchase forms with validation using react hook forms in conjunction with Zod.",
+    badgeFont: {
+      fontOne: <FontAwesomeIcon icon={faT} className="iconBall" />,
+      fontTwo: <FontAwesomeIcon icon={faReact} className="iconBall" />,
+      fontThree: <FontAwesomeIcon icon={faCss3} className="iconBall" />,
+    }
+  },
+  {
     name:"Movie Info",
     describe: "Utilize the TMDB API to search for various types of data, including movie rankings.",
     skills: "TypeScript + Next + Chakra UI",
@@ -33,7 +49,7 @@ const listProjects = [
     details: "a frontend app built with TypeScript, React, Next, and Chakra UI populated with TMDB API. The app allows users to search movies information and shows them by popularity.",
     badgeFont: {
       fontOne: <FontAwesomeIcon icon={faT} className="iconBall" />,
-      fontTwo: <FontAwesomeIcon icon={faCircleCheck} className="iconBall" />,
+      fontTwo: <img src={apiIcon} alt="API icon" className="iconBall api" width="50px" />,
       fontThree: <FontAwesomeIcon icon={faCss3} className="iconBall" />,
     }
   },
